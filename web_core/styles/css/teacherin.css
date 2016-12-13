@@ -1,0 +1,126 @@
+@import "public.css";
+@import "header.css";
+@import "footer.css";
+
+.teacherInfo{
+    width: 1180px;
+    margin: 0 auto;
+    border: 2px #dcdcdc solid;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 20px 50px;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+.teacherInfo>h4{
+    color: #04a4ea;
+    font-size: 20px;
+    font-weight: normal;
+    margin-bottom: 10px;
+}
+.in-left{
+    width:100px;
+    height: 100px;
+    border: 1px #dcdcdc solid;
+    box-shadow: 3px 3px 3px #dcdedb;
+    float: left;
+    margin-bottom: 20px;
+    margin-left: 120px;
+}
+.in-left img{
+    width: 100%;
+}
+.in-right{
+    width: 100px;
+    float: left;
+    margin-left: 20px;
+    margin-top: 50px;
+    position: relative;
+}
+.in-right input{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+    z-index: 11;
+}
+.in-right input:hover{
+    cursor: pointer;
+}
+.uploadBtn{
+    text-align: center;
+    border: 1px #07a4e4 solid;
+    border-radius: 3px;
+    font-size: 16px;
+    color:#07a4e4 ;
+    padding: 5px 0;
+}
+.uploadBtn:hover{
+    cursor: pointer;
+}
+.botUl{
+    width:100%;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+.botUl>input{
+    border: none;
+    background: #07a4e4;
+    color: white;
+    padding: 10px 50px;
+    border-radius: 5px;
+    font-size: 20px;
+    margin-left: 120px;
+}
+
+.botUl ul li>span{
+    color: red;
+    font-size: 14px;
+    line-height: 40px;
+    /*margin-left: 10px;*/
+    display: none;
+}
+.botUl ul li label span{
+    color: red;
+}
+.botUl ul li{
+    /*width: 50%;*/
+    float: left;
+    margin-bottom: 10px;
+}
+.botUl ul li:not(.noWidth){
+    width: 50%;
+}
+.botUl ul li label{
+    width: 100px;
+    line-height: 40px;
+    float: left;
+    text-align: right;
+}
+.botUl ul li input{
+    width: 300px;
+    height: 40px;
+    float: left;
+    border: 1px #dcdcdc solid;
+    border-radius: 5px;
+    margin-left: 20px;
+}
+.botUl ul li textarea{
+    width: 850px;
+    float: left;
+    border: 1px #dcdcdc solid;
+    border-radius: 5px;
+    margin-left: 20px;
+}
+.bottomA{
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+}
+.bottomA a{
+    color: #04a4ea;
+    font-size: 14px;
+}

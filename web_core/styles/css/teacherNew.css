@@ -1,0 +1,172 @@
+/*共有的css*/
+@import "public.css";
+@import "footer.css";
+@import "header.css";
+
+.teabig{
+    width: 1182px;
+    margin: 0 auto;
+}
+.teabig>ul>li{
+    width: 100%;
+    margin-bottom: 50px;
+}
+.teabig>ul>li:first-child{
+    margin-top: 70px;
+}
+.teaLeft{
+    width: 236px;
+    height: 226px;
+    float: left;
+    padding: 2px 0 0 13px;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    position: relative;
+}
+.teaLeft.ml{
+    margin-left: 10px;
+}
+.leftTopY{
+    width: 86px;
+    height: 86px;
+    border-radius: 86px;
+    background: #05a3e4;
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    text-align: center;
+    display: table;
+}
+.leftTopY.topLeft{
+    top: 0;
+    left: 0;
+}
+.leftTopY.topRight{
+    top: -18px;
+    right: -10px;
+}
+.leftTopY span{
+    display: table-cell;
+    vertical-align: middle;
+}
+.teaLeft .circleImg{
+    width: 223px;
+    height: 223px;
+    border-radius: 223px;
+    overflow: hidden;
+}
+.teaLeft .circleImg img{
+    width: 223px;
+}
+.teaRight{
+    width: 907px;
+    float: left;
+    background: #f1f1f1;
+    padding: 22px 0 22px 22px;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+.teaRight.ml{
+    margin-left: 39px;
+}
+.teaR_left{
+    width: 580px;
+    float: left;
+    padding-right: 10px;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    border-right: 1px #6a6a6a solid;
+}
+.teaR_left h3{
+    color: #2b2b2b;
+    font-size: 22px;
+    font-weight: normal;
+}
+.teaR_left h3:hover{
+    color: #8b0000;
+    text-decoration: underline;
+}
+.teaR_left h4{
+    font-weight: normal;
+    margin-top: 5px;
+    font-size: 17px;
+}
+.teaR_left ul li{
+    float: left;
+    color: white;
+    padding: 2px 5px;
+    font-size: 12px;
+    margin-right: 5px;
+}
+.teaR_left ul{
+    margin-top: 5px;
+}
+.teaR_left ul li:hover{
+    cursor: pointer;
+}
+.teaR_left ul li.bacOrange{
+    background: #e98828;
+}
+.teaR_left ul li.bacGreen{
+    background: #069b51;
+}
+.teaR_left ul li.bacBlue{
+    background: #0293df;
+}
+.teaR_left ul li.bacPurple{
+    background: #b24b88;
+}
+.teaR_left p{
+    font-size: 13px;
+    color: #868686;
+    margin-top: 10px;
+}
+.teaR_right{
+    /*width: 258px;*/
+    /*height: 174px;*/
+    white-space: nowrap;
+    max-width: 290px;
+    float: left;
+    width: 305px;
+    margin-top: 10px;
+    padding-left: 15px;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+.teaR_right ul li input{
+    background: #8b0000;
+    color: white;
+    padding: 2px 5px;
+    font-size: 12px;
+    margin-left: 5px;
+    border-radius: 3px;
+}
+.teaR_right h3{
+    font-weight: normal;
+    font-size: 22px;
+}
+.teaR_right ul li:first-child{
+    margin-top: 15px;
+}
+.teaR_right ul li{
+   font-size: 13px;
+    margin-bottom: 5px;
+    white-space: nowrap;
+}
+.teaR_right ul li a{
+    color: #5e5e5e;
+}
+.bottomA{
+    width: 1182px;
+    margin: 0 auto;
+    text-align: center;
+    text-decoration: underline;
+}
+.bottomA a{
+    color: orange;
+    font-size: 20px;
+}

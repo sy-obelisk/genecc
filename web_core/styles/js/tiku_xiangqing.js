@@ -1,0 +1,1 @@
+$(function(){$(".PX_l_center_timu .PX_l_center_SCK").scroll_absolute({arrows:false});$(".PX_l_center01_remen ul li .PX_zan").click(function(){if($(this).hasClass("on")){$(this).removeClass("on")}else{$(this).addClass("on")}})});

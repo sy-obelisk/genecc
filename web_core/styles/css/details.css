@@ -1,0 +1,383 @@
+.w12 {
+    position: relative;
+    width: 1200px;
+    height: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.color-1 {
+    color: #ff9a34;
+    border: 1px solid #ff9a34;
+}
+
+.color-2 {
+    color: #ff6666;
+    border: 1px solid #ff6666;
+}
+
+.color-3 {
+    color: #009933;
+    border: 1px solid #009933;
+}
+
+.color-4 {
+    color: #6767cd;
+    border: 1px solid #6767cd;
+}
+/*******************顶部搜索&Banner*********************/
+.banner-wrap {
+    height: 350px;
+    overflow: hidden;
+    background: url("../images-4/bg-3.jpg") no-repeat center center, #21396c;
+}
+
+.search-wrap2 {
+    /*background: rgba(33, 57, 108, 0.75);*/
+}
+
+.search-int-wrap h1 {
+    font-weight: normal;
+    font-size: 38px;
+    color: #ffffff;
+    margin: 80px 0 45px;
+}
+
+.det-search-int::-moz-placeholder {
+    color: #ffffff;
+}
+
+.det-search-int::-webkit-input-placeholder {
+    color: #ffffff;
+}
+
+.det-search-int:-ms-input-placeholder {
+    color: #ffffff;
+}
+
+.det-search-int {
+    padding: 0 15px;
+    font-family: "Microsoft YaHei UI", 微软雅黑, \u9ed1\u4f53;
+    color: #ffffff;
+    background: rgba(255, 255, 255, 0.45);
+    font-size: 20px;
+    width: 335px;
+    height: 50px;
+    border: none;
+    outline: none;
+    border-radius: 8px;
+}
+
+.search-bt {
+    cursor: pointer;
+    text-align: center;
+    display: inline-block;
+    font-size: 24px;
+    border-radius: 3px;
+    vertical-align: bottom;
+    background: #ff9966;
+    color: #ffffff;
+    line-height: 50px;
+    width: 60px;
+}
+
+.search-bt:hover {
+    background: #eb8a61;
+}
+
+.topic-content{
+    padding: 30px 0 50px;
+}
+
+/*--------------右边-------------*/
+.det-right {
+    width: 285px;
+    background: #f3f6fb;
+}
+
+.det-left {
+    width: 880px;
+}
+
+.right-tit {
+    margin-top: 15px;
+    padding-left: 15px;
+    line-height: 50px;
+    font-size: 18px;
+    color: #ffffff;
+    background: #0095eb;
+    border-radius: 5px;
+}
+
+.right-tit:nth-child(1) {
+    margin-top: 0;
+}
+
+.right-cont {
+    background: #ffffff;
+    padding: 0 15px;
+    border: 1px solid #e7e7e7;
+}
+
+.GMAT-specialty {
+    padding: 10px 0;
+    overflow: hidden;
+    border-bottom: 1px solid #e7e7e7;
+}
+
+.GMAT-specialty span {
+    margin: 5px 0;
+    font-size: 16px;
+    border-radius: 20px;
+    text-align: center;
+    width: 120px;
+    line-height: 32px;
+}
+
+.GMAT-specialty span:nth-child(odd) {
+    float: left;
+}
+
+.GMAT-specialty span:nth-child(even) {
+    float: right;
+}
+
+.qq-contact {
+    padding: 10px 0;
+}
+
+.qq-contact p {
+    text-align: center;
+    color: #373737;
+    font-size: 14px;
+    margin: 5px 0;
+}
+
+.rnt-2 {
+    padding: 0px 0 25px;
+}
+
+.erm-wrap p {
+    padding-left: 10px;
+    text-align: left;
+    font-size: 16px;
+    color: #37302f;
+    margin: 10px 0;
+}
+
+.right-solve li {
+    padding: 10px 0;
+    border-bottom: 1px solid #e6e6e6;
+}
+
+.right-solve li:last-child {
+    border: none;
+}
+
+.topic-tit {
+    display: block;
+    text-indent: -6px;
+    margin-bottom: 5px;
+    font-size: 16px;
+    color: #242424;
+    font-weight: normal;
+}
+.topic-tit:hover{
+    color: #ff282a;
+    text-decoration: underline;
+}
+
+.topic-de {
+    line-height: 16px;
+    /*text-indent: -6px;*/
+    font-size: 14px;
+    color: #808080;
+    margin-bottom: 5px;
+}
+
+.topic-view {
+    line-height: 16px;
+    font-size: 14px;
+    color: #2ab2ee;
+}
+
+/*--------------左边--------------*/
+.topic-select {
+    padding-top: 20px;
+    padding-left: 15px;
+    background: #f7f9fc;
+}
+
+.left-topic-list {
+    overflow: hidden;
+    width: 845px;
+    border-top: 3px solid #00a2e9;
+    font-size: 0;
+}
+
+.left-topic-list li a{
+    display: inline-block;
+    cursor: pointer;
+    padding: 0 15px;
+    margin-top: -5px;
+    float: left;
+    line-height: 42px;
+    font-size: 16px;
+    color: #00a2e9;
+    border-radius: 5px;
+    margin-right: 5px;
+    border: 1px solid #eaecef;
+}
+
+.left-topic-list li:last-child {
+    margin-right: 0;
+}
+
+.left-topic-list li:first-child {
+    margin-left: -1px;
+}
+
+.left-topic-list li a.on {
+    color: #ffffff;
+    background: #00a2e9;
+    border: none;
+}
+
+.topic-select-2 {
+    padding: 10px 0;
+    overflow: hidden;
+}
+
+.topic-select-2 li{
+    cursor: pointer;
+    float: left;
+    margin: 0 10px;
+    font-size: 14px;
+    color: #4a4b4c;
+}
+
+.topic-select-2 li:first-child {
+    cursor: auto;
+    margin: 0;
+}
+
+.topic-select-2 li a.on {
+    color: #00a2e9;
+}
+
+/*************************题目列表CSS*****************************/
+.left-problem-list {
+    /*min-height: 1055px;*/
+    margin-top: 35px;
+    padding: 0 15px;
+    background: #f7f9fc;
+}
+
+.left-problem-list li {
+    padding: 25px 0;
+    font-size: 0;
+    border-bottom: 2px solid #e7eaee;
+}
+
+.problem-l, .problem-m, .problem-r {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.problem-l {
+    width: 110px;
+    height: 80px;
+    border-radius: 8px;
+    background: #ffffff;
+    overflow: hidden;
+    border: 1px solid #e0e3e8;
+}
+
+.p-num {
+    text-align: center;
+    font-size: 16px;
+    line-height: 30px;
+    color: #ffffff;
+    background: #ff9966;
+}
+
+.p-count {
+    text-align: center;
+    font-size: 24px;
+    line-height: 50px;
+    color: #494b4c;
+}
+
+.problem-m {
+    overflow: hidden;
+    width: 570px;
+    margin: 0 40px 0 25px;
+}
+
+.problem-tit {
+    display: block;
+    font-weight: normal;
+    font-size: 20px;
+    margin-bottom: 8px;
+    text-indent: -6px;
+}
+
+.problem-tit:hover {
+    color: #ff2637;
+    text-decoration: underline;
+}
+
+.problem-de {
+    font-family: Arial;
+    color: #838485;
+    line-height: 26px;
+    font-size: 16px;
+}
+
+.problem-r .problem-btn {
+    text-align: center;
+    display: inline-block;
+    vertical-align: middle;
+    width: 98px;
+    line-height: 36px;
+    font-size: 18px;
+    color: #383839;
+    box-shadow: 0px 0px 2px 0px #3bceea;
+    border: 1px solid #02a3ea;
+}
+
+.problem-r .problem-btn:hover {
+    color: #ffffff;
+    background: #02a3ea;
+}
+
+/**************************分页CSS*****************************/
+.l-page {
+    font-size: 0;
+    padding: 50px 15px;
+    background: #f7f9fc;
+}
+.l-page li{
+    display: inline-block;
+    vertical-align: top;
+    border-bottom: none;
+}
+
+.l-page  a {
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 20px;
+    color: #02a3ea;
+    margin-right: 10px;
+    text-align: center;
+    border-radius: 50%;
+    border: 1px solid #d7d9dd;
+    vertical-align: middle;
+    display: inline-block;
+}
+
+.l-page a.on {
+    background: #02a3ea;
+    color: #ffffff;
+}

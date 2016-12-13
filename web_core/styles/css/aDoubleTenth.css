@@ -1,0 +1,227 @@
+@import "public.css";
+@import "header.css";
+@import "footer.css";
+
+.doubleBanner{
+    width: 100%;
+    /*height: 517px;*/
+}
+.bannerBd ul li img{
+    width: 100%;
+}
+.buyThree{
+    width: 1180px;
+    height: 602px;
+    border: 3px #fd4780 dashed;
+    margin: 0 auto;
+    margin-top: 116px;
+    border-radius: 20px;
+}
+.buyTree_left{
+    width: 270px;
+    float: left;
+    margin-left: 78px;
+    text-align: center;
+    color: #f42069;
+    font-size: 22px;
+    margin-top: -83px;
+}
+.buyTree_left p{
+    margin-top: 15px;
+    margin-bottom: 65px;
+}
+.buyTree_right{
+    width: 724px;
+    float: left;
+    margin-left: 105px;
+}
+.buyTree_right ul li{
+    width: 266px;
+    line-height: 25px;
+    float: left;
+    margin-right: 93px;
+    margin-top: 40px;
+}
+.buyTree_right ul li:nth-child(2n){
+    margin-right: 0;
+}
+.className{
+    font-weight: normal;
+    font-size: 17px;
+}
+.classNamecolor01{
+    color: #f7276d;
+}
+.classNamecolor02{
+    color: #187ced;
+}
+.classNamecolor03{
+    color: #fa720b;
+}
+.priceColor{
+    color: #e6232c;
+    font-size: 30px;
+    font-weight: bold;
+}
+.priceColor span{
+    font-size: 12px;
+}
+.xiaH{
+    font-size: 40px;
+    position: relative;
+    top: 9px;
+}
+.oldPrice{
+    color: #3f3b3a;
+    font-size: 12px;
+    margin-left: 10px;
+    position: relative;
+    top: -10px;
+}
+.oldPrice span{
+    text-decoration: line-through;
+}
+.qiangBtn{
+    width: 80px;
+    height: 28px;
+    color: white;
+    font-family: '微软雅黑';
+    border: none;
+    border-radius: 3px;
+    font-size: 16px;
+}
+.qiangBtnbacolor01{
+    background: #f82870;
+}
+.qiangBtnbacolor02{
+    background: #1c73ed;
+}
+.qiangBtnbacolor03{
+    background: #f67810;
+}
+.buyFour{
+    width: 1182px;
+    height: 547px;
+    border: 3px #035de9 dashed;
+    margin: 0 auto;
+    margin-top: 101px;
+    border-radius: 20px;
+}
+.buyFour-left{
+    width: 639px;
+    float: left;
+    margin-left: 79px;
+}
+.buyFour-left ul li{
+    float: left;
+    margin-top: 40px;
+    line-height: 22px;
+}
+.buyFour-left ul li:nth-child(2){
+    margin-right: 100px;
+}
+.leftImg,.rightFont{
+    float: left;
+}
+.rightFont{
+    margin-left: 22px;
+    margin-top: 47px;
+    line-height: 22px;
+}
+.buyFour-right{
+    width: 270px;
+    float: left;
+    margin-left: 125px;
+    text-align: center;
+    color: #1f6ded;
+    font-size: 22px;
+    margin-top: -73px;
+}
+.buyFour-right p{
+    margin-bottom: 20px;
+}
+.buyFive{
+    width: 1180px;
+    height: 319px;
+    border: 3px #ed6b24 dashed;
+    margin: 0 auto;
+    margin-top: 105px;
+    border-radius: 20px;
+}
+.buyFive-left{
+    width: 269px;
+    float: left;
+    text-align: center;
+    color: #fd6b05;
+    font-size: 22px;
+    margin-top: -65px;
+    margin-left: 30px;
+}
+.buyFive-left p{
+    margin-top: 20px;
+}
+.buyFive-right{
+    width: 715px;
+    float: left;
+    margin-left: 160px;
+    margin-top: 43px;
+}
+.buyFive-right ul li{
+    float: left;
+    line-height: 22px;
+}
+.buyFive-right ul li:nth-child(1){
+    margin-right: 90px;
+}
+.moldReport{
+    width: 1180px;
+    height: 335px;
+    border: 3px #fe2246 dashed;
+    margin: 0 auto;
+    margin-top: 120px;
+    border-radius: 20px;
+    position: relative;
+}
+.titleF{
+    position: absolute;
+    top: -43px;
+    right: 50px;
+}
+.moldLeft{
+    float: left;
+    margin-top: 111px;
+    margin-left: 26px;
+}
+.moldRight{
+    float: left;
+    margin-left: 32px;
+    margin-top: 115px;
+}
+.moldRight ul li{
+    margin-bottom: 10px;
+    color: #332f2c;
+    font-size: 31px;
+}
+.moldRight ul li span.commonNum{
+    color: white;
+    font-weight: bold;
+    padding: 0 8px;
+    border-radius: 20px;
+    font-size: 25px;
+}
+.spanBack01{
+    background: #028fd6;
+}
+.spanBack02{
+    background: #ff6702;
+}
+.spanBack03{
+    background: #ff03fd;
+}
+.doubleFoot{
+    width: 100%;
+    text-align: center;
+    margin-top: 70px;
+    color: #42393a;
+}
+

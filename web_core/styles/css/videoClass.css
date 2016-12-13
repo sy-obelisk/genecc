@@ -1,0 +1,213 @@
+@import "header.css";
+@import "footer.css";
+@import "public.css";
+
+.topBanner{
+    width: 100%;
+}
+.topBanner img{
+    width: 100%;
+}
+.commonTitle{
+    width: 1171px;
+    color: #474644;
+    font-size: 29px;
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.commonTitle img{
+    position: relative;
+    top: 5px;
+}
+.hotClass{
+    width: 1171px;
+    margin: 0 auto;
+}
+.hotLeft{
+    width: 352px;
+    height: 216px;
+    float: left;
+    position: relative;
+}
+.hotHd{
+    /*width: 60px;*/
+    position: absolute;
+    left: 50%;
+    /*margin-left: -25%;*/
+    bottom: 14px;
+    z-index: 11;
+    /*border: 1px red solid;*/
+}
+.hotHd ul li{
+    width: 10px;
+    height: 10px;
+    border-radius: 10px;
+    border: 1px white solid;
+    float: left;
+    margin-right: 5px;
+}
+.hotHd ul:after{
+    display:block;clear:both;content:"";visibility:hidden;height:0;
+}
+.hotHd ul li:last-child{
+    margin-right: 0;
+}
+.hotHd ul li.on{
+    background: white;
+}
+.hotRight{
+    width: 766px;
+    float: left;
+    margin-left: 29px;
+    margin-top: 15px;
+}
+.hotRight ul li{
+    width: 225px;
+    margin-right: 43px;
+    float: left;
+}
+.hotRight ul li:last-child{
+    margin-right: 0;
+}
+.hotRight ul li .topImg{
+    width: 225px;
+    height: 134px;
+    border: 1px #d0d0d0 solid;
+}
+.hotRight ul li .topImg img{
+    width: 100%;
+}
+.hotRight ul li:hover .topImg{
+    border: 1px #81a7d5 solid;
+    box-shadow: 0 5px 5px #ece8e5;
+}
+.hotRight ul li h3{
+    font-weight: normal;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-size: 17px;
+}
+.hotRight ul li span{
+    color: #646464;
+    font-size: 15px;
+}
+.hotRight ul li input{
+    width: 81px;
+    height: 24px;
+    color: white;
+    border: none;
+    font-size: 15px;
+}
+.hotRight ul li input.back01{
+    background: #06a2e8;
+}
+.hotRight ul li input.back02{
+    background: #06b146;
+}
+.hotRight ul li:hover{
+    cursor: pointer;
+}
+.threeClass{
+    width: 1171px;
+    margin: 0 auto;
+}
+.threeClass ul li:not(.haveBac){
+    width: 234px;
+    height: 118px;
+    border: 1px #eaeaea solid;
+    float: left;
+    margin-right: 10px;
+    color: #31302e;
+    position: relative;
+    padding: 15px 10px 0 20px;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+.threeClass ul{
+    overflow: auto;
+}
+.threeClass ul li{
+    margin-bottom: 14px;
+}
+.threeClass ul li a{
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+.threeClass ul li:not(.haveBac):hover{
+    box-shadow: 0 10px 10px #e3e3e3;
+    cursor: pointer;
+    color: #1b9bd3;
+    background: url("../images/videoClass_fanyebg.png") no-repeat;
+}
+.threeClass ul li:not(.haveBac) h4{
+    font-weight: normal;
+    font-size: 16px;
+}
+.threeClass ul li:not(.haveBac) span{
+     font-size: 12px;
+}
+.threeClass ul li:not(.haveBac) b{
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    font-weight: normal;
+    font-size: 15px;
+    color: #c66b78;
+}
+.threeClass ul li:nth-child(5n){
+    margin-right: 0;
+}
+.threeClass ul li.haveBac{
+    width: 190px;
+    height: 118px;
+    float: left;
+    color: white;
+    text-align: center;
+    display: table;
+    font-size: 30px;
+    margin-right: 15px;
+}
+.threeClass ul li.haveBac01{
+    background: url("../images/videoClass_class01.png") no-repeat;
+}
+.threeClass ul li.haveBac02{
+    background: url("../images/videoClass_class02.png") no-repeat;
+}
+.threeClass ul li.haveBac03{
+    background: url("../images/videoClass_class03.png") no-repeat;
+}.threeClass ul li.haveBac04{
+    background: url("../images/videoClass_class04.png") no-repeat;
+}
+.threeClass ul li.haveBac span{
+    display: table-cell;
+    vertical-align: middle;
+}
+.classService{
+    width: 1167px;
+    height: 178px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+.classService ul li{
+    width: 290px;
+    height: 178px;
+    background: #eeeeee;
+    float: left;
+    margin-right: 1px;
+    color: #464241;
+    text-align: center;
+    font-size: 12px;
+}
+.classService ul li img{
+    margin-top: 30px;
+}
+.classService ul li div{
+    text-align: left;
+    margin-left: 55px;
+}
+.classService ul li:last-child{
+    margin-right: 0;
+}

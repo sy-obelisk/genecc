@@ -1,0 +1,211 @@
+@import "public.css";
+@import "header.css";
+@import "footer.css";
+
+.clearfix:after{
+    content:"";
+    display:block;
+    visibility:hidden;
+    clear:both;
+    height:0;
+}
+.clearfix{ /* 为了照顾ie6浏览器*/
+    zoom:1;
+}
+
+.headImg{
+    width: 100%;
+    height: auto;
+}
+.headImg img{
+    width: 100%;
+    height: auto;
+    /*解决图片之间的间隙*/
+   vertical-align: bottom;
+}
+.blueDiv{
+    width: 100%;
+    height: auto;
+    background: #43a7a5;
+    position: relative;
+    padding: 123px 0 100px 0;
+}
+.cloud01{
+    position: absolute;
+    top: 0;
+    right: 12%;
+}
+.cloud02{
+    position: absolute;
+    bottom: -78px;
+    left: 13%;
+    z-index: 11;
+}
+.cloud03{
+    width: 100%;
+    position: absolute;
+    bottom:0;
+    left:0;
+    z-index: 0;
+}
+.middleDiv{
+    width: 1026px;
+    margin: 0 auto;
+}
+.topTitle{
+    width: 100%;
+    text-align: center;
+}
+.topTitle h4{
+    color: #e43349;
+    font-size: 22px;
+    margin-top: 13px;
+}
+.bottUL{
+    margin-top: 63px;
+}
+.bottUL>ul>li{
+    width: 500px;
+    height: 351px;
+    background: white;
+    float: left;
+    border-radius: 10px;
+    position: relative;
+    margin-right: 26px;
+    margin-bottom: 49px;
+}
+.bottUL>ul>li:nth-child(2n){
+    margin-right: 0;
+}
+.titleTag{
+    width: 129px;
+    height: 163px;
+    background: url("../images/annualMeeting_titleTag.png") no-repeat;
+    position: absolute;
+    top: -22px;
+    left: 20px;
+    color: white;
+    text-align: center;
+}
+.titleTag h1{
+    font-size: 70px;
+}
+.titleTag span{
+    font-size: 20px;
+}
+.topImgTea{
+    width: 306px;
+    float: right;
+    margin-right: 18px;
+    margin-top: 57px;
+}
+.speMT{
+    margin-top: 40px;
+}
+.topImgTea ul li{
+    width: 123px;
+    text-align: center;
+    float: left;
+    margin-right: 40px;
+    position: relative;
+}
+.speIMg{
+    position: absolute;
+    left: 70px;
+    bottom: -105px;
+}
+.topImgTea ul li:last-child{
+    margin-right: 0;
+}
+.topImgTea ul li h4{
+    color: #156c6b;
+    margin-top: 15px;
+}
+.greyFont{
+    width: 460px;
+    height: 88px;
+    line-height: 30px;
+    color: #342e2d;
+    margin: 0 auto;
+    background: #eeeeef;
+    padding: 15px 0 0 24px;
+    box-sizing:  border-box;
+    -moz-box-sizing:  border-box;
+    -webkit-box-sizing:  border-box;
+}
+.oneTr{
+    margin-top: 20px;
+}
+.twoTr{
+    margin-top: 5px;
+}
+.threeTr{
+    margin-top: 130px;
+}
+.speHeight{
+    height: 300px!important;
+}
+.purpleDiv{
+    width: 100%;
+    background: #13152f;
+    padding: 65px 0 160px 0;
+    position: relative;
+}
+.purpleMiddle{
+    width: 1016px;
+    margin: 0 auto;
+    position: relative;
+}
+.cloud04{
+    position: absolute;
+    right: -185px;
+    top: 52px;
+}
+.purpleTop{
+    width: 100%;
+    text-align: center;
+}
+.purpleTop h4{
+    margin-top: 15px;
+    color: #faa71c;
+    font-size: 22px;
+}
+.purpleCenter{
+    margin-top: 76px;
+}
+.purpleC-left{
+    float: left;
+}
+.purpleBot{
+    width: 100%;
+    text-align: center;
+    margin-top: 60px;
+}
+.purpleC-right{
+    float: left;
+    margin-left: 66px;
+    color: white;
+}
+.purpleC-right ul li{
+    margin-bottom: 30px;
+}
+.purpleC-right ul li h4{
+    padding: 2px 10px;
+    display: inline-block;
+    margin-bottom: 15px;
+}
+.purpleC-right ul li h4.bac01{
+    background: #eb3839;
+}
+.purpleC-right ul li h4.bac02{
+    background: #6335a1;
+}
+.purpleC-right ul li h4.bac03{
+    background: #0291ff;
+}
+.purpleC-right ul li h4.bac04{
+    background: #34cc67;
+}
+.purpleC-right ul li span{
+    font-size: 14px;
+}

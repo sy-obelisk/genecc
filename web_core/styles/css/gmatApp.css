@@ -1,0 +1,256 @@
+@import "public.css";
+@import "header.css";
+@import "footer.css";
+
+.appOne{
+    width: 100%;
+    height: 635px;
+    background: url("../images/gmatApp_bigbg.png") no-repeat center;
+    background-size: auto 100%;
+}
+.oneIn{
+    width: 997px;
+    margin: 0 auto;
+    padding-top: 79px;
+    text-align: center;
+}
+.oneIn h1{
+    color: white;
+    line-height: 70px;
+    font-weight: normal;
+    font-size: 60px;
+}
+.oneInfo{
+    width: 526px;
+    height: 176px;
+    border: 1px #ffffff solid;
+    text-align: center;
+    padding-top: 29px;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    position: relative;
+    margin: 0 auto;
+    margin-top: 52px;
+    color: #dfdfdf;
+    font-size: 18px;
+}
+.oneInfo ul li{
+    color: #ffffff;
+    margin-bottom: 10px;
+}
+.zxian{
+    width: 5px;
+    height: 45px;
+    background:#544f4b;
+    display: block;
+    position: absolute;
+    top: 50%;
+    margin-top: -22px;
+    z-index: 11;
+}
+.leftZ{
+    left: -2px;
+}
+.rightZ{
+    right: -2px;
+}
+.greenBtn{
+    width: 320px;
+    height: 70px;
+    color: white;
+    font-size: 35px;
+    background: #44b767;
+    border-radius: 10px;
+    text-align: center;
+    float: left;
+    padding-top: 8px;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    margin-top: 48px;
+}
+.greenBtn img{
+    vertical-align: middle;
+}
+.erweima{
+    float: left;
+    margin: 27px 49px 0 49px;
+}
+.appTwo{
+    width: 100%;
+    height: 725px;
+    background: url("../images/gmatApp_greyBigbg.png") no-repeat bottom;
+    background-size: 100% auto;
+    /*border: 1px red solid;*/
+}
+.twoIn{
+    width: 1099px;
+    margin: 0 auto;
+}
+.twoIn-left{
+    float: left;
+}
+.twoIn-right{
+    width: 612px;
+    height: 100px;
+    float: left;
+    margin-left: 158px;
+    margin-top: 55px;
+}
+.twoIn-right h2{
+    color: #46b669;
+    font-weight: normal;
+    font-size: 50px;
+    float: left;
+    margin-left: 182px;
+    margin-top: 37px;
+    margin-right: 15px;
+}
+.greenNum{
+    width: 121px;
+    height: 136px;
+    background: url("../images/gmatApp_circles.png") no-repeat;
+    text-align: center;
+    float: left;
+}
+.greenNum span{
+    height: 100%;
+    display: inline-block;
+    vertical-align: middle;
+}
+.greenNum img{
+    vertical-align: middle;
+}
+.twoIn-right h3{
+    color: #4a4a4a;
+    font-weight: normal;
+    font-size: 30px;
+    margin-top: 30px;
+    margin-left: 24px;
+}
+.botUL{
+    margin-top: 60px;
+}
+.botUL ul li{
+    width: 105px;
+   float: left;
+    margin-right: 127px;
+}
+.botUL ul li:last-child{
+    margin-right: 0;
+}
+.blueDiv{
+    width: 105px;
+    height: 91px;
+    background: url("../images/gmatApp_blueBG.png") no-repeat;
+    text-align: center;
+    margin-bottom: 25px;
+}
+.blueDiv span{
+    height: 100%;
+    display: inline-block;
+    vertical-align: middle;
+}
+.blueDiv img{
+    vertical-align: middle;
+}
+.botUL ul li>p{
+    color: #0b76cf;
+    margin-left: 5px;
+}
+.appThree{
+    width: 100%;
+    background: #1b1a20;
+    padding-top: 60px;
+    text-align: center;
+}
+.appThree h1{
+    color: #41b766;
+    font-weight: normal;
+    font-size: 55px;
+}
+.appThree p{
+    color: #9a9a9a;
+    margin-top: 40px;
+    font-size: 30px;
+    margin-bottom: 85px;
+}
+.appFour{
+    width: 100%;
+    height: 650px;
+    background: url("../images/gmatApp_greyBack.png") no-repeat center;
+    background-size: 100% auto;
+}
+.inFour{
+    width: 1107px;
+    margin: 0 auto;
+    padding-top: 70px;
+}
+.inFour-left{
+    width: 598px;
+    float: left;
+}
+.inFour-right{
+    width: 506px;
+    float: left;
+}
+.inFour-left h2{
+    color: #43b767;
+    font-size: 55px;
+    font-weight: normal;
+}
+.inFour-left h2 img{
+    margin-right: 30px;
+    vertical-align: middle;
+}
+.inFour-left>p{
+    font-size: 30px;
+    margin-top: 52px;
+    color: #363636;
+}
+.inFour-left ul{
+    margin-top: 66px;
+}
+.inFour-left ul li{
+    float: left;
+    text-align: center;
+    margin-right: 100px;
+}
+.inFour-left ul li:last-child{
+    margin-right: 0;
+}
+.inFour-left ul li p{
+    color: #398af2;
+    margin-top: 35px;
+    font-size: 18px;
+}
+.appFive{
+    width: 100%;
+    height: 850px;
+    background: url("../images/gmatApp_twoMask.png") no-repeat center;
+}
+.inFive{
+    width: 1056px;
+    margin: 0 auto;
+    padding-top: 90px;
+}
+.appFive ul li{
+    float: left;
+    margin-right: 296px;
+}
+.appFive ul li:last-child{
+    margin-right: 0;
+}
+.appFive ul li p{
+    width: 288px;
+    height: 66px;
+    line-height: 66px;
+    border: 1px white solid;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 35px;
+    margin: 0 auto;
+    margin-top: 40px;
+    color: white;
+}
