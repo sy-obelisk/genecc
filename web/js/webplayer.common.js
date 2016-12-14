@@ -17,7 +17,8 @@ $(function () {
     channel.bind("onPlayheadTime", function (event) {
         var width=event.data.playheadTime/videoduration*100;
         if(width>99.8){
-            
+            $(".form-maskLayer").show();
+            $(".form-font").show();
         }
         $(".progress-bar-buffer").css("width", event.data.downloadProgress + "%");//下载百分比
         $("#playerProgressBar").slider('value', width);//滚动条
