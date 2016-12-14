@@ -35,7 +35,7 @@
                 <gs:doc
                     site="bjsy.gensee.com"
                     ctx="training"
-                    ownerid="zDXid1AhJD"
+                    ownerid="<?php echo $sdk?>"
                     fullscreen="true"
                     bgcolor=""
                     lang="zh_CN"/>
@@ -105,7 +105,7 @@
             <gs:video-vod
                 site="bjsy.gensee.com"
                 ctx="training"
-                ownerid="zDXid1AhJD"
+                ownerid="<?php echo $sdk?>"
                 uid="14889"
                 uname="2"
                 password=""

@@ -14,8 +14,8 @@ class IndexController extends Controller
     }
 
     public function actionPlay(){
-//        $sdk = Yii::$app->request->get('sdk');
-        return $this->renderPartial('play');
+        $sdk = Yii::$app->request->get('sdk');
+        return $this->renderPartial('play',['sdk' => $sdk]);
     }
 
 }

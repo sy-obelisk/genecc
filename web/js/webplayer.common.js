@@ -16,7 +16,7 @@ $(function () {
     //PlayheadTime监听
     channel.bind("onPlayheadTime", function (event) {
         var width=event.data.playheadTime/videoduration*100;
-        if(width>99.8){
+        if(width>99.5){
             $(".form-maskLayer").show();
             $(".form-font").show();
         }
