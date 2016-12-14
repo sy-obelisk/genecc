@@ -3,19 +3,14 @@
 namespace app\controllers;
 
 use Yii;
-use app\libs\ApiControl;
+use yii\web\Controller;
 
 
-class IndexController extends ApiControl
+class IndexController extends Controller
 {
     public function actionIndex()
     {
-        $userId = Yii::$app->session->get('adminId');
-        if(!$userId){
-            $this->redirect('/user/login/index');
-        }else{
-            return $this->render('index');
-        }
+        return $this->renderPartial('index');
     }
 
 }

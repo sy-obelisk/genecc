@@ -13,8 +13,7 @@ class SiteController extends Controller
 {
     public function actionIndex()
     {
-        $this->redirect('/');
-        #return $this->render('index');
+        $this->redirect('/index');
     }
 
     public function actionLogin()
