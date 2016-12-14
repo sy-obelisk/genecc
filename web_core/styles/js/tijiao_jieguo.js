@@ -1,1 +1,0 @@
-$(function(){$(".LX_l_center_jilu .LX_zuoti_JL").scroll_absolute({arrows:false})});
