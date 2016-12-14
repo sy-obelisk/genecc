@@ -143,7 +143,7 @@
 <!--打赏弹窗-->
 <div class="form-maskLayer"></div>
 <div class="form-font">
-    <div class="topBlue">雷哥GMAT在线课程，助你预见想象的700+</div>
+    <div class="topBlue">如果以上课程对你有所帮助，可以打赏给雷哥网哟，金额不限</div>
     <div class="passDiv">
         <form  action="" method="post">
             <br/>

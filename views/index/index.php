@@ -48,6 +48,7 @@
     <div class="clearBox"></div>
 
     <div class="slideBd" id="slideBd">
+<!----------------------------GMAT------------------------------->
 <!--        <div class="con">-->
             <ul>
                 <li>
@@ -56,7 +57,7 @@
                             <ul>
                                 <li>
                                     <div class="v_top_poster">
-                                        <a href="2lTY3viK5X"><img src="/images/videoL_poster.png" alt="poster"/></a>
+                                        <a href="/index/play?sdk=2lTY3viK5X"><img src="/images/videoL_poster.png" alt="poster"/></a>
                                         <div class="r_b_time">00:30:25</div>
                                     </div>
                                     <div class="v_bot_see">
@@ -73,7 +74,7 @@
                                 </li>
                                 <li>
                                     <div class="v_top_poster">
-                                        <a href="JlcBH0TXPD"><img src="/images/videoL_poster.png" alt="poster"/></a>
+                                        <a href="/index/play?sdk=JlcBH0TXPD"><img src="/images/videoL_poster.png" alt="poster"/></a>
                                         <div class="r_b_time">00:30:25</div>
                                     </div>
                                     <div class="v_bot_see">
@@ -90,7 +91,7 @@
                                 </li>
                                 <li>
                                     <div class="v_top_poster">
-                                        <a href="0D9WVEnAB3"><img src="/images/videoL_poster.png" alt="poster"/></a>
+                                        <a href="/index/play?sdk=0D9WVEnAB3"><img src="/images/videoL_poster.png" alt="poster"/></a>
                                         <div class="r_b_time">00:30:25</div>
                                     </div>
                                     <div class="v_bot_see">
@@ -107,7 +108,7 @@
                                 </li>
                                 <li>
                                     <div class="v_top_poster">
-                                        <a href="j1UZGrujrb"><img src="/images/videoL_poster.png" alt="poster"/></a>
+                                        <a href="/index/play?sdk=j1UZGrujrb"><img src="/images/videoL_poster.png" alt="poster"/></a>
                                         <div class="r_b_time">00:30:25</div>
                                     </div>
                                     <div class="v_bot_see">
@@ -122,12 +123,64 @@
                                         <div class="clearBox"></div>
                                     </div>
                                 </li>
+                                <li>
+                                    <div class="v_top_poster">
+                                        <a href="/index/play?sdk=sfSRA2A2na"><img src="/images/videoL_poster.png" alt="poster"/></a>
+                                        <div class="r_b_time">00:30:25</div>
+                                    </div>
+                                    <div class="v_bot_see">
+                                        <div class="col-xs-10 col-sm-10">
+                                            <img src="/images/videoL_logo.png" alt="图标"/>
+                                            <span>备考GMAT数学有哪些关键点</span>
+                                        </div>
+                                        <div class="col-xs-2 col-sm-2">
+                                            <img src="/images/videoL_eyes.png" alt="eyes"/>
+                                            <span>87</span>
+                                        </div>
+                                        <div class="clearBox"></div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="v_top_poster">
+                                        <a href="/index/play?sdk=WmkwSD6sPp"><img src="/images/videoL_poster.png" alt="poster"/></a>
+                                        <div class="r_b_time">00:30:25</div>
+                                    </div>
+                                    <div class="v_bot_see">
+                                        <div class="col-xs-10 col-sm-10">
+                                            <img src="/images/videoL_logo.png" alt="图标"/>
+                                            <span>你知道SC备考难点有哪些吗</span>
+                                        </div>
+                                        <div class="col-xs-2 col-sm-2">
+                                            <img src="/images/videoL_eyes.png" alt="eyes"/>
+                                            <span>65</span>
+                                        </div>
+                                        <div class="clearBox"></div>
+                                    </div>
+                                </li>
                             </ul>
                         </div>
                     </div>
                 </li>
+                <li>
+                    <div class="v_top_poster">
+                        <a href="/index/play?sdk=ouiUN1uJz6"><img src="/images/videoL_poster.png" alt="poster"/></a>
+                        <div class="r_b_time">00:30:25</div>
+                    </div>
+                    <div class="v_bot_see">
+                        <div class="col-xs-10 col-sm-10">
+                            <img src="/images/videoL_logo.png" alt="图标"/>
+                            <span>如何打破GMAT600分的尴尬局面</span>
+                        </div>
+                        <div class="col-xs-2 col-sm-2">
+                            <img src="/images/videoL_eyes.png" alt="eyes"/>
+                            <span>106</span>
+                        </div>
+                        <div class="clearBox"></div>
+                    </div>
+                </li>
             </ul>
 <!--        </div>-->
+        <!----------------------------托福------------------------------->
 <!--        <div class="con">-->
             <ul>
                 <li>
@@ -136,7 +189,7 @@
                             <ul>
                                 <li>
                                     <div class="v_top_poster">
-                                        <a href="sO52X5TXA9"><img src="/images/videoL_poster.png" alt="poster"/></a>
+                                        <a href="/index/play?sdk=sO52X5TXA9"><img src="/images/videoL_poster.png" alt="poster"/></a>
                                         <div class="r_b_time">00:15:25</div>
                                     </div>
                                     <div class="v_bot_see">
@@ -153,7 +206,7 @@
                                 </li>
                                 <li>
                                     <div class="v_top_poster">
-                                        <a href="7smFdJXt3D"><img src="/images/videoL_poster.png" alt="poster"/></a>
+                                        <a href="/index/play?sdk=7smFdJXt3D"><img src="/images/videoL_poster.png" alt="poster"/></a>
                                         <div class="r_b_time">00:30:25</div>
                                     </div>
                                     <div class="v_bot_see">
@@ -170,7 +223,7 @@
                                 </li>
                                 <li>
                                     <div class="v_top_poster">
-                                        <a href="FooEWykjJ9"><img src="/images/videoL_poster.png" alt="poster"/></a>
+                                        <a href="/index/play?sdk=FooEWykjJ9"><img src="/images/videoL_poster.png" alt="poster"/></a>
                                         <div class="r_b_time">00:30:25</div>
                                     </div>
                                     <div class="v_bot_see">
@@ -187,7 +240,7 @@
                                 </li>
                                 <li>
                                     <div class="v_top_poster">
-                                        <a href="fSUxIW39Ak"><img src="/images/videoL_poster.png" alt="poster"/></a>
+                                        <a href="/index/play?sdk=fSUxIW39Ak"><img src="/images/videoL_poster.png" alt="poster"/></a>
                                         <div class="r_b_time">00:30:25</div>
                                     </div>
                                     <div class="v_bot_see">
@@ -202,12 +255,31 @@
                                         <div class="clearBox"></div>
                                     </div>
                                 </li>
+
+                                <li>
+                                    <div class="v_top_poster">
+                                        <a href="/index/play?sdk=sv6m3l1xQq"><img src="/images/videoL_poster.png" alt="poster"/></a>
+                                        <div class="r_b_time">00:30:25</div>
+                                    </div>
+                                    <div class="v_bot_see">
+                                        <div class="col-xs-10 col-sm-10">
+                                            <img src="/images/videoL_logo.png" alt="图标"/>
+                                            <span>托福听力八大题型</span>
+                                        </div>
+                                        <div class="col-xs-2 col-sm-2">
+                                            <img src="/images/videoL_eyes.png" alt="eyes"/>
+                                            <span>106</span>
+                                        </div>
+                                        <div class="clearBox"></div>
+                                    </div>
+                                </li>
                             </ul>
                         </div>
                     </div>
                 </li>
             </ul>
 <!--        </div>-->
+        <!----------------------------留学------------------------------->
 <!--        <div class="con">-->
             <ul>
                 <li>
@@ -216,7 +288,7 @@
                             <ul>
                                 <li>
                                     <div class="v_top_poster">
-                                        <a href="inKyqEh4Qg"><img src="/images/videoL_poster.png" alt="poster"/></a>
+                                        <a href="/index/play?sdk=inKyqEh4Qg"><img src="/images/videoL_poster.png" alt="poster"/></a>
                                         <div class="r_b_time">00:15:25</div>
                                     </div>
                                     <div class="v_bot_see">
