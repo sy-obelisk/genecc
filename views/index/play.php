@@ -35,7 +35,7 @@
                 <gs:doc
                     site="bjsy.gensee.com"
                     ctx="training"
-                    ownerid="zDXid1AhJD"
+                    ownerid="<?php echo $sdk?>"
                     fullscreen="true"
                     bgcolor=""
                     lang="zh_CN"/>
@@ -105,7 +105,7 @@
             <gs:video-vod
                 site="bjsy.gensee.com"
                 ctx="training"
-                ownerid="zDXid1AhJD"
+                ownerid="<?php echo $sdk?>"
                 uid="14889"
                 uname="2"
                 password=""
@@ -122,9 +122,9 @@
 <div id="coverLayer"></div>
 
 
-<!--&lt;!&ndash;遮罩层&ndash;&gt;-->
+<!--<!--&lt;!&ndash;遮罩层&ndash;&gt;-->-->
 <!--<div class="form-maskLayer"></div>-->
-<!--&lt;!&ndash;遮罩层里面的文字&ndash;&gt;-->
+<!--<!--&lt;!&ndash;遮罩层里面的文字&ndash;&gt;-->-->
 <!--<div class="form-font">-->
 <!--<div class="topBlue">雷哥GMAT在线课程，助你预见想象的700+</div>-->
 <!--<div class="passDiv">-->
@@ -140,5 +140,17 @@
 <!--$(".form-maskLayer").css("height",$(document).height()+"px");-->
 <!--</script>-->
 
+<!--打赏弹窗-->
+<div class="form-maskLayer"></div>
+<div class="form-font">
+    <div class="topBlue">雷哥GMAT在线课程，助你预见想象的700+</div>
+    <div class="passDiv">
+        <form  action="" method="post">
+            <br/>
+            <input id="PWD" name="PWD" type="text"/>
+            <button type="submit">打赏</button>
+        </form>
+    </div>
+</div>
 </body>
 </html>

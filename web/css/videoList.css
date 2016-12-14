@@ -138,14 +138,16 @@ body{
     line-height: 28px;
     background: #ffffff;
     padding: 5px 0;
+    font-size: 0.8em;
 }
 .v_bot_see .col-xs-10 img{
-    height: 28px;
+    height: 20px;
 }
 .v_bot_see .col-xs-2 span{
     color: #b3b3b3;
 }
 .v_bot_see .col-xs-2 img{
-   position: relative;
+    width: 20px;
+    position: relative;
     top: -2px;
 }

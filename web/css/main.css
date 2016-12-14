@@ -2806,13 +2806,14 @@ object {
 /*遮罩层css*/
 .form-maskLayer{
     width: 100%;
-    /*height: 100px;*/
+    height: 100%;
     background: #000000;
     opacity: 0.4;
     position: absolute;
     top: 0;
     left: 0;
     z-index: 999;
+    display: none;
 }
 .form-font{
     width: 400px;
@@ -2825,6 +2826,7 @@ object {
     margin-top: -100px;
     margin-left: -200px;
     z-index: 1000;
+    display: none;
 }
 .topBlue{
     width: 100%;
@@ -2856,5 +2858,6 @@ object {
     height: 26px;
 }
 .passDiv{
-    padding-left: 20px;
+    padding-left: 50px;
 }
+
