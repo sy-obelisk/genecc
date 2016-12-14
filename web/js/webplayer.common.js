@@ -16,6 +16,9 @@ $(function () {
     //PlayheadTime监听
     channel.bind("onPlayheadTime", function (event) {
         var width=event.data.playheadTime/videoduration*100;
+        if(width>99.8){
+            
+        }
         $(".progress-bar-buffer").css("width", event.data.downloadProgress + "%");//下载百分比
         $("#playerProgressBar").slider('value', width);//滚动条
         $(".progress-bar-elapsed").width(width+"%");
@@ -23,6 +26,7 @@ $(function () {
         var intAdd=parseInt(event.data.playheadTime/1000);
         timerDif(intDiff);
         timeradd(intAdd);
+
 
     });
     //Seek监听
