@@ -37,10 +37,6 @@
     <script type="text/javascript" src="/js/pullToRefresh.js"></script>
 </head>
 <body>
-<div class="blackNav">
-    <a href="#" class="returnP"><img src="/images/videoL_lj.png" alt="白色返回箭头"/></a>
-    <span>列表</span>
-</div>
 <div class="slideCon" id="videoSlide">
     <div class="slideHd">
         <ul>
@@ -60,16 +56,16 @@
                             <ul>
                                 <li>
                                     <div class="v_top_poster">
-                                        <a href="#"><img src="images/videoL_poster.png" alt="poster"/></a>
+                                        <a href="#"><img src="/images/videoL_poster.png" alt="poster"/></a>
                                         <div class="r_b_time">00:30:25</div>
                                     </div>
                                     <div class="v_bot_see">
                                         <div class="col-xs-10 col-sm-10">
-                                            <img src="images/videoL_logo.png" alt="图标"/>
+                                            <img src="/images/videoL_logo.png" alt="图标"/>
                                             <span>雷哥GMAT~~</span>
                                         </div>
                                         <div class="col-xs-2 col-sm-2">
-                                            <img src="images/videoL_eyes.png" alt="eyes"/>
+                                            <img src="/images/videoL_eyes.png" alt="eyes"/>
                                             <span>55</span>
                                         </div>
                                         <div class="clearBox"></div>
@@ -77,16 +73,16 @@
                                 </li>
                                 <li>
                                     <div class="v_top_poster">
-                                        <a href="#"><img src="images/videoL_poster.png" alt="poster"/></a>
+                                        <a href="#"><img src="/images/videoL_poster.png" alt="poster"/></a>
                                         <div class="r_b_time">00:30:25</div>
                                     </div>
                                     <div class="v_bot_see">
                                         <div class="col-xs-10 col-sm-10">
-                                            <img src="images/videoL_logo.png" alt="图标"/>
+                                            <img src="/images/videoL_logo.png" alt="图标"/>
                                             <span>雷哥GMAT~~</span>
                                         </div>
                                         <div class="col-xs-2 col-sm-2">
-                                            <img src="images/videoL_eyes.png" alt="eyes"/>
+                                            <img src="/images/videoL_eyes.png" alt="eyes"/>
                                             <span>55</span>
                                         </div>
                                         <div class="clearBox"></div>
@@ -106,16 +102,16 @@
                             <ul>
                                 <li>
                                     <div class="v_top_poster">
-                                        <a href="#"><img src="images/videoL_poster.png" alt="poster"/></a>
+                                        <a href="#"><img src="/images/videoL_poster.png" alt="poster"/></a>
                                         <div class="r_b_time">00:15:25</div>
                                     </div>
                                     <div class="v_bot_see">
                                         <div class="col-xs-10 col-sm-10">
-                                            <img src="images/videoL_logo.png" alt="图标"/>
+                                            <img src="/images/videoL_logo.png" alt="图标"/>
                                             <span>雷哥GMAT~~</span>
                                         </div>
                                         <div class="col-xs-2 col-sm-2">
-                                            <img src="images/videoL_eyes.png" alt="eyes"/>
+                                            <img src="/images/videoL_eyes.png" alt="eyes"/>
                                             <span>55</span>
                                         </div>
                                         <div class="clearBox"></div>
@@ -123,16 +119,16 @@
                                 </li>
                                 <li>
                                     <div class="v_top_poster">
-                                        <a href="#"><img src="images/videoL_poster.png" alt="poster"/></a>
+                                        <a href="#"><img src="/images/videoL_poster.png" alt="poster"/></a>
                                         <div class="r_b_time">00:30:25</div>
                                     </div>
                                     <div class="v_bot_see">
                                         <div class="col-xs-10 col-sm-10">
-                                            <img src="images/videoL_logo.png" alt="图标"/>
+                                            <img src="/images/videoL_logo.png" alt="图标"/>
                                             <span>雷哥GMAT~~</span>
                                         </div>
                                         <div class="col-xs-2 col-sm-2">
-                                            <img src="images/videoL_eyes.png" alt="eyes"/>
+                                            <img src="/images/videoL_eyes.png" alt="eyes"/>
                                             <span>55</span>
                                         </div>
                                         <div class="clearBox"></div>
@@ -152,16 +148,16 @@
                             <ul>
                                 <li>
                                     <div class="v_top_poster">
-                                        <a href="#"><img src="images/videoL_poster.png" alt="poster"/></a>
+                                        <a href="#"><img src="/images/videoL_poster.png" alt="poster"/></a>
                                         <div class="r_b_time">00:15:25</div>
                                     </div>
                                     <div class="v_bot_see">
                                         <div class="col-xs-10 col-sm-10">
-                                            <img src="images/videoL_logo.png" alt="图标"/>
+                                            <img src="/images/videoL_logo.png" alt="图标"/>
                                             <span>雷哥GMAT~~</span>
                                         </div>
                                         <div class="col-xs-2 col-sm-2">
-                                            <img src="images/videoL_eyes.png" alt="eyes"/>
+                                            <img src="/images/videoL_eyes.png" alt="eyes"/>
                                             <span>55</span>
                                         </div>
                                         <div class="clearBox"></div>
@@ -169,16 +165,16 @@
                                 </li>
                                 <li>
                                     <div class="v_top_poster">
-                                        <a href="#"><img src="images/videoL_poster.png" alt="poster"/></a>
+                                        <a href="#"><img src="/images/videoL_poster.png" alt="poster"/></a>
                                         <div class="r_b_time">00:30:25</div>
                                     </div>
                                     <div class="v_bot_see">
                                         <div class="col-xs-10 col-sm-10">
-                                            <img src="images/videoL_logo.png" alt="图标"/>
+                                            <img src="/images/videoL_logo.png" alt="图标"/>
                                             <span>雷哥GMAT~~</span>
                                         </div>
                                         <div class="col-xs-2 col-sm-2">
-                                            <img src="images/videoL_eyes.png" alt="eyes"/>
+                                            <img src="/images/videoL_eyes.png" alt="eyes"/>
                                             <span>55</span>
                                         </div>
                                         <div class="clearBox"></div>
@@ -282,16 +278,16 @@
         var str='';
         str+=' <li>'
         +'<div class="v_top_poster">'
-        +'<a href="#"><img src="images/videoL_poster.png" alt="poster"/></a>'
+        +'<a href="#"><img src="/images/videoL_poster.png" alt="poster"/></a>'
         +'<div class="r_b_time">00:30:25</div>'
         +'</div>'
         +'<div class="v_bot_see">'
         +' <div class="col-xs-10 col-sm-10">'
-        +' <img src="images/videoL_logo.png" alt="图标"/>'
+        +' <img src="/images/videoL_logo.png" alt="图标"/>'
         +' <span>oh yeah~~</span>'
         +'</div>'
         +'<div class="col-xs-2 col-sm-2">'
-        +'<img src="images/videoL_eyes.png" alt="eyes"/>'
+        +'<img src="/images/videoL_eyes.png" alt="eyes"/>'
         +'<span>55</span>'
         +'</div>'
         +'<div class="clearBox"></div>'
