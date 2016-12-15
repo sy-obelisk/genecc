@@ -143,14 +143,8 @@
 <!--打赏弹窗-->
 <div class="form-maskLayer"></div>
 <div class="form-font">
-    <div class="topBlue">如果以上课程对你有所帮助，可以打赏给雷哥网哟，金额不限</div>
-    <div class="passDiv">
-        <form  action="" method="post">
-            <br/>
-            <input id="PWD" name="PWD" type="text"/>
-            <button type="submit">打赏</button>
-        </form>
-    </div>
+    <div class="input_money"><input type="text"/></div>
+    <a href="#"></a>
 </div>
 </body>
 </html>
