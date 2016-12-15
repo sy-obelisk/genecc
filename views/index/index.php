@@ -37,6 +37,10 @@
     <script type="text/javascript" src="/js/pullToRefresh.js"></script>
 </head>
 <body>
+<div class="blackNav">
+<!--    <a href="#" class="returnP"><img src="images/videoL_lj.png" alt="白色返回箭头"/></a>-->
+    <span>雷哥网公益课堂</span>
+</div>
 <div class="slideCon" id="videoSlide">
     <div class="slideHd">
         <ul>
@@ -58,7 +62,7 @@
                                 <li>
                                     <div class="v_top_poster">
                                         <a href="/index/play?sdk=2lTY3viK5X"><img src="/images/videoL_poster.png" alt="poster"/></a>
-                                        <div class="r_b_time">00:30:25</div>
+                                        <div class="r_b_time">00:45:47</div>
                                     </div>
                                     <div class="v_bot_see">
                                         <div class="col-xs-10 col-sm-10">
@@ -75,7 +79,7 @@
                                 <li>
                                     <div class="v_top_poster">
                                         <a href="/index/play?sdk=JlcBH0TXPD"><img src="/images/videoL_poster.png" alt="poster"/></a>
-                                        <div class="r_b_time">00:30:25</div>
+                                        <div class="r_b_time">00:44:49</div>
                                     </div>
                                     <div class="v_bot_see">
                                         <div class="col-xs-10 col-sm-10">
@@ -84,7 +88,7 @@
                                         </div>
                                         <div class="col-xs-2 col-sm-2">
                                             <img src="/images/videoL_eyes.png" alt="eyes"/>
-                                            <span>55</span>
+                                            <span>110</span>
                                         </div>
                                         <div class="clearBox"></div>
                                     </div>
@@ -92,7 +96,7 @@
                                 <li>
                                     <div class="v_top_poster">
                                         <a href="/index/play?sdk=0D9WVEnAB3"><img src="/images/videoL_poster.png" alt="poster"/></a>
-                                        <div class="r_b_time">00:30:25</div>
+                                        <div class="r_b_time">00:32:56</div>
                                     </div>
                                     <div class="v_bot_see">
                                         <div class="col-xs-10 col-sm-10">
@@ -109,7 +113,7 @@
                                 <li>
                                     <div class="v_top_poster">
                                         <a href="/index/play?sdk=j1UZGrujrb"><img src="/images/videoL_poster.png" alt="poster"/></a>
-                                        <div class="r_b_time">00:30:25</div>
+                                        <div class="r_b_time">00:37:41</div>
                                     </div>
                                     <div class="v_bot_see">
                                         <div class="col-xs-10 col-sm-10">
@@ -126,7 +130,7 @@
                                 <li>
                                     <div class="v_top_poster">
                                         <a href="/index/play?sdk=sfSRA2A2na"><img src="/images/videoL_poster.png" alt="poster"/></a>
-                                        <div class="r_b_time">00:30:25</div>
+                                        <div class="r_b_time">00:37:27</div>
                                     </div>
                                     <div class="v_bot_see">
                                         <div class="col-xs-10 col-sm-10">
@@ -143,7 +147,7 @@
                                 <li>
                                     <div class="v_top_poster">
                                         <a href="/index/play?sdk=WmkwSD6sPp"><img src="/images/videoL_poster.png" alt="poster"/></a>
-                                        <div class="r_b_time">00:30:25</div>
+                                        <div class="r_b_time">00:36:48</div>
                                     </div>
                                     <div class="v_bot_see">
                                         <div class="col-xs-10 col-sm-10">
@@ -157,25 +161,25 @@
                                         <div class="clearBox"></div>
                                     </div>
                                 </li>
+                                <li>
+                                    <div class="v_top_poster">
+                                        <a href="/index/play?sdk=ouiUN1uJz6"><img src="/images/videoL_poster.png" alt="poster"/></a>
+                                        <div class="r_b_time">00:36:27</div>
+                                    </div>
+                                    <div class="v_bot_see">
+                                        <div class="col-xs-10 col-sm-10">
+                                            <img src="/images/videoL_logo.png" alt="图标"/>
+                                            <span>如何打破GMAT600分的尴尬局面</span>
+                                        </div>
+                                        <div class="col-xs-2 col-sm-2">
+                                            <img src="/images/videoL_eyes.png" alt="eyes"/>
+                                            <span>106</span>
+                                        </div>
+                                        <div class="clearBox"></div>
+                                    </div>
+                                </li>
                             </ul>
                         </div>
-                    </div>
-                </li>
-                <li>
-                    <div class="v_top_poster">
-                        <a href="/index/play?sdk=ouiUN1uJz6"><img src="/images/videoL_poster.png" alt="poster"/></a>
-                        <div class="r_b_time">00:30:25</div>
-                    </div>
-                    <div class="v_bot_see">
-                        <div class="col-xs-10 col-sm-10">
-                            <img src="/images/videoL_logo.png" alt="图标"/>
-                            <span>如何打破GMAT600分的尴尬局面</span>
-                        </div>
-                        <div class="col-xs-2 col-sm-2">
-                            <img src="/images/videoL_eyes.png" alt="eyes"/>
-                            <span>106</span>
-                        </div>
-                        <div class="clearBox"></div>
                     </div>
                 </li>
             </ul>
@@ -190,7 +194,7 @@
                                 <li>
                                     <div class="v_top_poster">
                                         <a href="/index/play?sdk=sO52X5TXA9"><img src="/images/videoL_poster.png" alt="poster"/></a>
-                                        <div class="r_b_time">00:15:25</div>
+                                        <div class="r_b_time">00:47:17</div>
                                     </div>
                                     <div class="v_bot_see">
                                         <div class="col-xs-10 col-sm-10">
@@ -199,7 +203,7 @@
                                         </div>
                                         <div class="col-xs-2 col-sm-2">
                                             <img src="/images/videoL_eyes.png" alt="eyes"/>
-                                            <span>56</span>
+                                            <span>58</span>
                                         </div>
                                         <div class="clearBox"></div>
                                     </div>
@@ -207,7 +211,7 @@
                                 <li>
                                     <div class="v_top_poster">
                                         <a href="/index/play?sdk=7smFdJXt3D"><img src="/images/videoL_poster.png" alt="poster"/></a>
-                                        <div class="r_b_time">00:30:25</div>
+                                        <div class="r_b_time">00:45:31</div>
                                     </div>
                                     <div class="v_bot_see">
                                         <div class="col-xs-10 col-sm-10">
@@ -216,7 +220,7 @@
                                         </div>
                                         <div class="col-xs-2 col-sm-2">
                                             <img src="/images/videoL_eyes.png" alt="eyes"/>
-                                            <span>106</span>
+                                            <span>125</span>
                                         </div>
                                         <div class="clearBox"></div>
                                     </div>
@@ -224,7 +228,7 @@
                                 <li>
                                     <div class="v_top_poster">
                                         <a href="/index/play?sdk=FooEWykjJ9"><img src="/images/videoL_poster.png" alt="poster"/></a>
-                                        <div class="r_b_time">00:30:25</div>
+                                        <div class="r_b_time">00:33:42</div>
                                     </div>
                                     <div class="v_bot_see">
                                         <div class="col-xs-10 col-sm-10">
@@ -233,7 +237,7 @@
                                         </div>
                                         <div class="col-xs-2 col-sm-2">
                                             <img src="/images/videoL_eyes.png" alt="eyes"/>
-                                            <span>106</span>
+                                            <span>111</span>
                                         </div>
                                         <div class="clearBox"></div>
                                     </div>
@@ -241,7 +245,7 @@
                                 <li>
                                     <div class="v_top_poster">
                                         <a href="/index/play?sdk=fSUxIW39Ak"><img src="/images/videoL_poster.png" alt="poster"/></a>
-                                        <div class="r_b_time">00:30:25</div>
+                                        <div class="r_b_time">00:31:40</div>
                                     </div>
                                     <div class="v_bot_see">
                                         <div class="col-xs-10 col-sm-10">
@@ -250,7 +254,7 @@
                                         </div>
                                         <div class="col-xs-2 col-sm-2">
                                             <img src="/images/videoL_eyes.png" alt="eyes"/>
-                                            <span>106</span>
+                                            <span>115</span>
                                         </div>
                                         <div class="clearBox"></div>
                                     </div>
@@ -259,7 +263,7 @@
                                 <li>
                                     <div class="v_top_poster">
                                         <a href="/index/play?sdk=sv6m3l1xQq"><img src="/images/videoL_poster.png" alt="poster"/></a>
-                                        <div class="r_b_time">00:30:25</div>
+                                        <div class="r_b_time">00:45:24</div>
                                     </div>
                                     <div class="v_bot_see">
                                         <div class="col-xs-10 col-sm-10">
@@ -268,7 +272,7 @@
                                         </div>
                                         <div class="col-xs-2 col-sm-2">
                                             <img src="/images/videoL_eyes.png" alt="eyes"/>
-                                            <span>106</span>
+                                            <span>123</span>
                                         </div>
                                         <div class="clearBox"></div>
                                     </div>
@@ -289,7 +293,7 @@
                                 <li>
                                     <div class="v_top_poster">
                                         <a href="/index/play?sdk=inKyqEh4Qg"><img src="/images/videoL_poster.png" alt="poster"/></a>
-                                        <div class="r_b_time">00:15:25</div>
+                                        <div class="r_b_time">00:42:26</div>
                                     </div>
                                     <div class="v_bot_see">
                                         <div class="col-xs-10 col-sm-10">
