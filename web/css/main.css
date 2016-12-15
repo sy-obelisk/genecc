@@ -2813,7 +2813,7 @@ object {
     top: 0;
     left: 0;
     z-index: 999;
-    /*display: none;*/
+    display: none;
 }
 .form-font{
     width: 439px;
@@ -2827,7 +2827,7 @@ object {
     /*margin-top: -297px;*/
     margin-left: -219px;
     z-index: 1000;
-    /*display: none;*/
+    display: none;
 }
 .input_money{
     width: 241px;
@@ -2845,7 +2845,7 @@ object {
     bottom: 15px;
     border: none;
     font-size: 30px;
-    color: #e48503;
+    color: #e48503!important;
 }
 .form-font button{
     width: 128px;
