@@ -2847,12 +2847,16 @@ object {
     font-size: 30px;
     color: #e48503;
 }
-.form-font a{
+.form-font button{
     width: 128px;
     height: 30px;
     display: block;
     margin: 0 auto;
     margin-top: 22px;
     background: url("../images/video_btn.png") no-repeat;
+    border: none;
+}
+.form-font button:hover{
+    cursor: pointer;
 }
 
