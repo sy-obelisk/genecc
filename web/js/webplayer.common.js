@@ -8,26 +8,45 @@ var channel = GS.createChannel();
 var videoduration;
 var myslider;
 var time_z=360;
+var st
+var time_test;
+var type;
+var sdk;
+var stype=0;
 $(function () {
     channel.bind("onFileDuration", function (event) {
         videoduration = event.data.duration;
-        //time_z=videoduration/100;alert(time_z);
+        time_test = videoduration*0.2;
+        type = $('#type').val();
+        sdk = $('#sdk').val();
     });
     //PlayheadTime监听
     channel.bind("onPlayheadTime", function (event) {
         var width=event.data.playheadTime/videoduration*100;
-        if(width>99.5){
-            $(".form-maskLayer").show();
-            $(".form-font").show();
+        var nowTime = event.data.playheadTime;
+        if(type==1 && time_test>0 && width){
+            console.log(time_test);
+            channel.send("seek", {"timestamp":time_test});//跳转到指定时间点
+            time_test=0;
+        }else{
+            if(width>10 && type != 1 && stype==0){
+                $.post("/index/judge",{sdk:sdk,nowTime:nowTime},function(data){
+                    if(data.code!=1){
+                        stype=1;
+                        $(".form-maskLayer").show();
+                        $(".form-font").show();
+                        channel.send("pause", {});
+                    }
+                })
+            }
+            $(".progress-bar-buffer").css("width", event.data.downloadProgress + "%");//下载百分比
+            $("#playerProgressBar").slider('value', width);//滚动条
+            $(".progress-bar-elapsed").width(width+"%");
+            var intDiff= parseInt((videoduration-event.data.playheadTime)/1000);
+            var intAdd=parseInt(event.data.playheadTime/1000);
+            timerDif(intDiff);
+            timeradd(intAdd);
         }
-        $(".progress-bar-buffer").css("width", event.data.downloadProgress + "%");//下载百分比
-        $("#playerProgressBar").slider('value', width);//滚动条
-        $(".progress-bar-elapsed").width(width+"%");
-        var intDiff= parseInt((videoduration-event.data.playheadTime)/1000);
-        var intAdd=parseInt(event.data.playheadTime/1000);
-        timerDif(intDiff);
-        timeradd(intAdd);
-
 
     });
     //Seek监听
@@ -106,6 +125,7 @@ $(function () {
         min:0,
         max:videoduration,
         start:function(event,ui){
+            console.log(1);
             channel.send("pause", {});
             clearInterval(myslider);
             $("#playBtn").attr({
@@ -114,14 +134,17 @@ $(function () {
             });
         },
         slide: function (event, ui) {
+            console.log(2);
             var style = $("#playerProgressBar a").attr("style").split(":")[1];
             var val = parseInt(style) + "%";
             $(".progress-bar-elapsed").width(val);
         },
         change: function (event, ui) {
+            console.log(3);
             $(".progress-bar-elapsed").width(ui.value+"%");
         },
         stop: function (event, ui) {
+            console.log(4);
             var tmt=parseInt(videoduration*ui.value/100);
             channel.send("seek", {"timestamp":tmt});//跳转到指定时间点
             //console.log(tmt+'|'+videoduration+'|'+ui.value);

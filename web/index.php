@@ -1,4 +1,5 @@
 <?php
+session_start();
 //function guid()
 //{
 //    mt_srand((double)microtime() * 10000);
