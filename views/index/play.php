@@ -141,10 +141,34 @@
 <!--</script>-->
 
 <!--打赏弹窗-->
+<input id="type" name="type" value="<?php echo $type?>" type="hidden"/>
 <div class="form-maskLayer"></div>
 <div class="form-font">
+<<<<<<< HEAD
     <div class="input_money"><input type="text"/></div>
     <a href="#"></a>
+=======
+    <div class="topBlue">如果以上课程对你有所帮助，可以打赏给雷哥网哟，金额不限</div>
+    <div class="passDiv">
+        <form  action="/index/pay" onsubmit="return verify()" method="post">
+            <br/>
+            <input id="money" name="money" type="text"/>
+            <input id="sdk" name="sdk" value="<?php echo $sdk?>" type="hidden"/>
+            <button type="submit">打赏</button>
+        </form>
+    </div>
+    <script type="text/javascript">
+        function verify(){
+            var money = $("#money").val();
+            if(money <1){
+                alert("打赏金额不低于1元人民币");
+                return false;
+            }else{
+                return true;
+            }
+        }
+    </script>
+>>>>>>> 72a5743e8cc22b2960f51a5cceec829dcc3d748b
 </div>
 </body>
 </html>
