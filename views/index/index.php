@@ -61,7 +61,7 @@
                             <ul>
                                 <li>
                                     <div class="v_top_poster">
-                                        <a href="/index/play?sdk=2lTY3viK5X"><img src="/images/videoL_poster.png" alt="poster"/></a>
+                                        <a href="/index/play?sdk=2lTY3viK5X&name=RC如何从0开始复习"><img src="/images/gmat_poster01.jpg" alt="poster"/></a>
                                         <div class="r_b_time">00:45:47</div>
                                     </div>
                                     <div class="v_bot_see">
@@ -78,7 +78,7 @@
                                 </li>
                                 <li>
                                     <div class="v_top_poster">
-                                        <a href="/index/play?sdk=JlcBH0TXPD"><img src="/images/videoL_poster.png" alt="poster"/></a>
+                                        <a href="/index/play?sdk=JlcBH0TXPD&name=如何迈过700大坎"><img src="/images/gmat_poster02.jpg" alt="poster"/></a>
                                         <div class="r_b_time">00:44:49</div>
                                     </div>
                                     <div class="v_bot_see">
@@ -95,7 +95,7 @@
                                 </li>
                                 <li>
                                     <div class="v_top_poster">
-                                        <a href="/index/play?sdk=0D9WVEnAB3"><img src="/images/videoL_poster.png" alt="poster"/></a>
+                                        <a href="/index/play?sdk=0D9WVEnAB3&name=如何突破GMAT阅读高分"><img src="/images/gmat_poster03.jpg" alt="poster"/></a>
                                         <div class="r_b_time">00:32:56</div>
                                     </div>
                                     <div class="v_bot_see">
@@ -112,7 +112,7 @@
                                 </li>
                                 <li>
                                     <div class="v_top_poster">
-                                        <a href="/index/play?sdk=j1UZGrujrb"><img src="/images/videoL_poster.png" alt="poster"/></a>
+                                        <a href="/index/play?sdk=j1UZGrujrb&name=零基础学生如何开始GMAT700+之路"><img src="/images/gmat_poster04.jpg" alt="poster"/></a>
                                         <div class="r_b_time">00:37:41</div>
                                     </div>
                                     <div class="v_bot_see">
@@ -129,7 +129,7 @@
                                 </li>
                                 <li>
                                     <div class="v_top_poster">
-                                        <a href="/index/play?sdk=sfSRA2A2na"><img src="/images/videoL_poster.png" alt="poster"/></a>
+                                        <a href="/index/play?sdk=sfSRA2A2na&name=备考GMAT数学有哪些关键点"><img src="/images/gmat_poster06.jpg" alt="poster"/></a>
                                         <div class="r_b_time">00:37:27</div>
                                     </div>
                                     <div class="v_bot_see">
@@ -146,7 +146,7 @@
                                 </li>
                                 <li>
                                     <div class="v_top_poster">
-                                        <a href="/index/play?sdk=WmkwSD6sPp"><img src="/images/videoL_poster.png" alt="poster"/></a>
+                                        <a href="/index/play?sdk=WmkwSD6sPp&name=你知道SC备考难点有哪些吗"><img src="/images/gmat_poster07.jpg" alt="poster"/></a>
                                         <div class="r_b_time">00:36:48</div>
                                     </div>
                                     <div class="v_bot_see">
@@ -163,7 +163,7 @@
                                 </li>
                                 <li>
                                     <div class="v_top_poster">
-                                        <a href="/index/play?sdk=ouiUN1uJz6"><img src="/images/videoL_poster.png" alt="poster"/></a>
+                                        <a href="/index/play?sdk=ouiUN1uJz6&name=如何打破GMAT600分的尴尬局面"><img src="/images/gmat_poster05.jpg" alt="poster"/></a>
                                         <div class="r_b_time">00:36:27</div>
                                     </div>
                                     <div class="v_bot_see">
@@ -193,7 +193,8 @@
                             <ul>
                                 <li>
                                     <div class="v_top_poster">
-                                        <a href="/index/play?sdk=sO52X5TXA9"><img src="/images/videoL_poster.png" alt="poster"/></a>
+                                        <a href="/index/play?sdk=sO52X5TXA9&name=你知道托福阅读的四大陷阱吗">
+                                            <img src="/images/toefl_poster01.jpg" alt="poster"/></a>
                                         <div class="r_b_time">00:47:17</div>
                                     </div>
                                     <div class="v_bot_see">
@@ -210,7 +211,7 @@
                                 </li>
                                 <li>
                                     <div class="v_top_poster">
-                                        <a href="/index/play?sdk=7smFdJXt3D"><img src="/images/videoL_poster.png" alt="poster"/></a>
+                                        <a href="/index/play?sdk=7smFdJXt3D&name=托福口语入门必备"><img src="/images/toefl_poster02.jpg" alt="poster"/></a>
                                         <div class="r_b_time">00:45:31</div>
                                     </div>
                                     <div class="v_bot_see">
@@ -227,7 +228,7 @@
                                 </li>
                                 <li>
                                     <div class="v_top_poster">
-                                        <a href="/index/play?sdk=FooEWykjJ9"><img src="/images/videoL_poster.png" alt="poster"/></a>
+                                        <a href="/index/play?sdk=FooEWykjJ9&name=提升托福写作速度的正确方法"><img src="/images/toefl_poster03.jpg" alt="poster"/></a>
                                         <div class="r_b_time">00:33:42</div>
                                     </div>
                                     <div class="v_bot_see">
@@ -244,7 +245,7 @@
                                 </li>
                                 <li>
                                     <div class="v_top_poster">
-                                        <a href="/index/play?sdk=fSUxIW39Ak"><img src="/images/videoL_poster.png" alt="poster"/></a>
+                                        <a href="/index/play?sdk=fSUxIW39Ak&name=如何突破托福听力lecture"><img src="/images/toefl_poster04.jpg" alt="poster"/></a>
                                         <div class="r_b_time">00:31:40</div>
                                     </div>
                                     <div class="v_bot_see">
@@ -262,7 +263,7 @@
 
                                 <li>
                                     <div class="v_top_poster">
-                                        <a href="/index/play?sdk=sv6m3l1xQq"><img src="/images/videoL_poster.png" alt="poster"/></a>
+                                        <a href="/index/play?sdk=sv6m3l1xQq&name=托福听力八大题型"><img src="/images/toefl_poster05.jpg" alt="poster"/></a>
                                         <div class="r_b_time">00:45:24</div>
                                     </div>
                                     <div class="v_bot_see">
@@ -292,7 +293,7 @@
                             <ul>
                                 <li>
                                     <div class="v_top_poster">
-                                        <a href="/index/play?sdk=inKyqEh4Qg"><img src="/images/videoL_poster.png" alt="poster"/></a>
+                                        <a href="/index/play?sdk=inKyqEh4Qg&name=美英金融硕士项目申请差异"><img src="/images/smart_poster01.jpg" alt="poster"/></a>
                                         <div class="r_b_time">00:42:26</div>
                                     </div>
                                     <div class="v_bot_see">
