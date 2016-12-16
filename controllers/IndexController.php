@@ -56,13 +56,13 @@ class IndexController extends Controller
         if($type != 1){
             $time = 0;
         }
-        if(strpos($_SERVER['HTTP_USER_AGENT'], 'iPhone')||strpos($_SERVER['HTTP_USER_AGENT'], 'iPad')){
-            echo 'systerm is IOS';
-        }else if(strpos($_SERVER['HTTP_USER_AGENT'], 'Android')){
-            echo 'systerm is Android';
-        }else{
-            echo 'systerm is other';
-        }
+//        if(strpos($_SERVER['HTTP_USER_AGENT'], 'iPhone')||strpos($_SERVER['HTTP_USER_AGENT'], 'iPad')){
+//            echo 'systerm is IOS';
+//        }else if(strpos($_SERVER['HTTP_USER_AGENT'], 'Android')){
+//            echo 'systerm is Android';
+//        }else{
+//            echo 'systerm is other';
+//        }
         return $this->renderPartial('android',['type' => $type,'sdk' => $sdk,'time' => $time]);
     }
 
