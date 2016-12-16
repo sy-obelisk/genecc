@@ -35,6 +35,7 @@
     <script type="text/javascript" src="/js/webplayer.common.js"></script>
     <script type="text/javascript" src="/js/webplayer.vod.js"></script>
     <script type="text/javascript" src="/js/jquery-ui-1.10.3.custom.min.js"></script>
+    <param name="wmode" value="opaque">
 
     <!--[if IE 6]>
     <script type="text/javascript" src="/js/DD_belatedPNG.js"></script>
@@ -48,7 +49,7 @@
 <!--标题栏-->
 <div class="blackNav">
     <a href="/index" class="returnP"><img src="/images/videoL_lj.png" alt="白色返回箭头"/></a>
-    <span><?php echo $name?></span>
+<!--    <span>--><?php //echo $name?><!--</span>-->
 </div>
 <div class="play_main">
     <!--放ppt的容器-->
