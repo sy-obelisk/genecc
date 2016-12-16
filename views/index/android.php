@@ -48,7 +48,7 @@
 <!--标题栏-->
 <div class="blackNav">
     <a href="#" class="returnP"><img src="/images/videoL_lj.png" alt="白色返回箭头"/></a>
-    <span>如何突破Lecture难关</span>
+    <span><?php echo $name?></span>
 </div>
 <div class="play_main">
     <!--放ppt的容器-->

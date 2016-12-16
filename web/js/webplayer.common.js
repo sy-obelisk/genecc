@@ -29,7 +29,7 @@ $(function () {
             channel.send("seek", {"timestamp":time_test});//跳转到指定时间点
             time_test=0;
         }else{
-            if(width>10 && type != 1 && stype==0){
+            if(width>0.3 && type != 1){
                 $.post("/index/judge",{sdk:sdk,nowTime:nowTime},function(data){
                     if(data.code!=1){
                         stype=1;
@@ -202,12 +202,12 @@ $(function () {
         switchVideoToPPT(0);
     });
 
-    //窗口最小化及还原
-    WidgetMinimize(".ppt-container", ".shortcut-2").minimize();
-    WidgetMinimize(".video-container", ".shortcut-3").minimize();
-    WidgetMinimize(".chat-container", ".shortcut-4").minimize();
-    WidgetMinimize(".qa-container", ".shortcut-5").minimize();
-    WidgetMinimize(".outline-container", ".shortcut-4").minimize();
+    ////窗口最小化及还原
+    //WidgetMinimize(".ppt-container", ".shortcut-2").minimize();
+    //WidgetMinimize(".video-container", ".shortcut-3").minimize();
+    //WidgetMinimize(".chat-container", ".shortcut-4").minimize();
+    //WidgetMinimize(".qa-container", ".shortcut-5").minimize();
+    //WidgetMinimize(".outline-container", ".shortcut-4").minimize();
 
     //双击全屏
     $("#widget-doc .comm-title").dblclick(function () {
