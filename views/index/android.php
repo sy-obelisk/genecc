@@ -47,8 +47,8 @@
 <body>
 <!--标题栏-->
 <div class="blackNav">
-    <a href="#" class="returnP"><img src="/images/videoL_lj.png" alt="白色返回箭头"/></a>
-    <span>如何突破Lecture难关</span>
+    <a href="/index" class="returnP"><img src="/images/videoL_lj.png" alt="白色返回箭头"/></a>
+    <span><?php echo $name?></span>
 </div>
 <div class="play_main">
     <!--放ppt的容器-->
@@ -93,6 +93,7 @@
         </div>
     </div>
 </div>-->
+<div class="center_line"></div>
 <!--老师视频部分-->
 <div class="teacher_box">
     <gs:doc
