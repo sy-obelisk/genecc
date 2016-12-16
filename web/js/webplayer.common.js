@@ -33,8 +33,12 @@ $(function () {
                 $.post("/index/judge",{sdk:sdk,nowTime:nowTime},function(data){
                     if(data.code!=1){
                         stype=1;
+                        //显示打赏弹窗
                         $(".form-maskLayer").show();
                         $(".form-font").show();
+                        //先隐藏播放器
+                        $("#player").hide();
+
                         channel.send("pause", {});
                     }
                 })

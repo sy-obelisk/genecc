@@ -49,24 +49,26 @@
 <!--标题栏-->
 <div class="blackNav">
     <a href="/index" class="returnP"><img src="/images/videoL_lj.png" alt="白色返回箭头"/></a>
-<!--    <span>--><?php //echo $name?><!--</span>-->
+    <span><?php echo $name?></span>
 </div>
 <div class="play_main">
     <!--放ppt的容器-->
      <div class="play_con">
-         <gs:video-vod
-             site="bjsy.gensee.com"
-             ctx="training"
-             ownerid="<?php echo $sdk?>"
-             uid="14889"
-             uname="2"
-             password=""
-             authcode=""
-             encodetype=""
-             bgimg="http://www.gmatonline.cn/app/web_core/styles//images/bg-video.png"
-             bar="false"
-             py="1"
-             lang="zh_CN"/>
+         <div id="player">
+             <gs:video-vod
+                 site="bjsy.gensee.com"
+                 ctx="training"
+                 ownerid="<?php echo $sdk?>"
+                 uid="14889"
+                 uname="2"
+                 password=""
+                 authcode=""
+                 encodetype=""
+                 bgimg="http://www.gmatonline.cn/app/web_core/styles//images/bg-video.png"
+                 bar="false"
+                 py="1"
+                 lang="zh_CN"/>
+         </div>
      </div>
     <!--进度条-->
 <!--    <div class="my_pro">-->
@@ -128,6 +130,7 @@
         }
     </script>
 </div>
+
 <script type="text/javascript">
     $(function(){
         $('.nstSlider').nstSlider({
