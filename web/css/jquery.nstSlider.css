@@ -1,0 +1,78 @@
+.is_clickable {
+  cursor: hand;
+  cursor: pointer;
+}
+.nstSlider {
+  cursor: hand;
+  cursor: pointer;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  position: relative;
+}
+.nstSlider.top{
+    width:80%;
+    height:3px;
+    background: #ffb98f;
+}
+.nstSlider.bot{
+    width:100%;
+    height:2px;
+    background: #623d2d;
+}
+.nstSlider .leftGrip.gripHighlighted {
+  background: #113344;
+}
+.nstSlider .rightGrip.gripHighlighted {
+  background: #113344;
+}
+.nstSlider .rightGrip,
+.nstSlider .leftGrip {
+  position: absolute;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+}
+.leftGrip.top{
+    top: -7px;
+    width: 15px;
+    height: 15px;
+    background: url("../images/video_proCircle.png") no-repeat;
+    background-size: 100% 100%;
+}
+.leftGrip.bot{
+    top: -5px;
+    width: 10px;
+    height: 10px;
+    background: url("../images/video_volpro.png") no-repeat;
+    background-size: 100% 100%;
+}
+.nstSlider .bar {
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  position: absolute;
+  top: 0;
+}
+.bar.top{
+    background: #ff8c4c;
+    height: 3px;
+}
+.bar.bot{
+    background: #ff8c4c;
+    height: 2px;
+}
+.nstSlider .highlightPanel {
+  -webkit-transition: all 500ms ease-in-out;
+  -moz-transition: all 500ms ease-in-out;
+  -ms-transition: all 500ms ease-in-out;
+  -o-transition: all 500ms ease-in-out;
+  transition: all 500ms ease-in-out;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  position: absolute;
+  background: #ffb98f;
+  height:3px;
+  top: 0;
+}
