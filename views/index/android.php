@@ -68,22 +68,18 @@
              lang="zh_CN"/>
      </div>
     <!--进度条-->
-    <div class="my_pro">
-        <div class="nstSlider top" data-range_min="0" data-range_max="100"
-             data-cur_min="30"  data-cur_max="0">
-            <div class="bar top"></div>
-            <div class="leftGrip top"></div>
-        </div>
-        <div class="rightLabel">01:32:28</div>
-    </div>
+<!--    <div class="my_pro">-->
+<!--        <div class="nstSlider top" data-range_min="0" data-range_max="100"-->
+<!--             data-cur_min="30"  data-cur_max="0">-->
+<!--            <div class="bar top"></div>-->
+<!--            <div class="leftGrip top"></div>-->
+<!--        </div>-->
+<!--        <div class="rightLabel">01:32:28</div>-->
+<!--    </div>-->
 </div>
 <!--底部黑色条部分-->
-<div class="black_control">
-    <!--播放-->
+<!--<div class="black_control">
     <div class="play" onclick="playIcon(this)"></div>
-    <!--切换图标-->
-    <!--<div class="toggle"></div>-->
-    <!--音量-->
     <div class="volume">
         <div class="volume_icon">
             <img src="/images/video_volume.png" alt="音量图标">
@@ -96,7 +92,7 @@
             </div>
         </div>
     </div>
-</div>
+</div>-->
 <!--老师视频部分-->
 <div class="teacher_box">
     <gs:doc
@@ -106,6 +102,29 @@
         fullscreen="true"
         bgcolor=""
         lang="zh_CN"/>
+</div>
+<!--打赏弹窗-->
+<input id="type" name="type" value="<?php echo $type?>" type="hidden"/>
+<div class="form-maskLayer"></div>
+<div class="form-font">
+    <form  action="/index/pay" onsubmit="return verify()" method="post">
+        <div class="input_money">
+            <input id="money" name="money" type="text"/>
+            <input id="sdk" name="sdk" value="<?php echo $sdk?>" type="hidden"/>
+        </div>
+        <button type="submit"></button>
+    </form>
+    <script type="text/javascript">
+        function verify(){
+            var money = $("#money").val();
+            if(money <1){
+                alert("打赏金额不低于1元人民币");
+                return false;
+            }else{
+                return true;
+            }
+        }
+    </script>
 </div>
 <script type="text/javascript">
     $(function(){

@@ -38,22 +38,22 @@
 				this.winWidth = 880;
 				this.winHeight = 550;
 				$(document.body).css({
-					"width" : 880,
-					"height" : 550
+					//"width" : 880,
+					//"height" : 550
 				});
 			}else if(_w > 880 && _h <= 550){
 				this.winWidth = _w;
 				this.winHeight = 550;
 				$(document.body).css({
-					"width" : _w,
-					"height" : 550
+					//"width" : _w,
+					//"height" : 550
 				});
 			}else if(_w <= 880 && _h > 550){
 				this.winWidth = 880;
 				this.winHeight = 550;
 				$(document.body).css({
-					"width" : 880,
-					"height" : _h
+					//"width" : 880,
+					//"height" : _h
 				});
 			}else if(_w > 880 && _h > 550){
 				this.winWidth = _w;
@@ -63,8 +63,8 @@
 					this.winHeight = (_w+200)/2;
 				}
 				$(document.body).css({
-					"width" : _w,
-					"height" : _h
+					//"width" : _w,
+					//"height" : _h
 
 				});
 			}
