@@ -36,7 +36,7 @@ class IndexController extends Controller
         }else if(strpos($_SERVER['HTTP_USER_AGENT'], 'Android')){
             return $this->renderPartial('android',['type' => $type,'sdk' => $sdk,'time' => $time]);
         }else{
-            eturn $this->renderPartial('play',['type' => $type,'sdk' => $sdk,'time' => $time]);
+            return $this->renderPartial('play',['type' => $type,'sdk' => $sdk,'time' => $time]);
         }
     }
 
