@@ -31,7 +31,39 @@ class IndexController extends Controller
         if($type != 1){
             $time = 0;
         }
-        return $this->renderPartial('play',['type' => $type,'sdk' => $sdk,'time' => $time]);
+        if(strpos($_SERVER['HTTP_USER_AGENT'], 'iPhone')||strpos($_SERVER['HTTP_USER_AGENT'], 'iPad')){
+            return $this->renderPartial('play',['type' => $type,'sdk' => $sdk,'time' => $time]);
+        }else if(strpos($_SERVER['HTTP_USER_AGENT'], 'Android')){
+            return $this->renderPartial('android',['type' => $type,'sdk' => $sdk,'time' => $time]);
+        }else{
+            eturn $this->renderPartial('play',['type' => $type,'sdk' => $sdk,'time' => $time]);
+        }
+    }
+
+    public function actionAndroid(){
+        $sdk = Yii::$app->request->get('sdk');
+        if(!isset($_SESSION['sdk'])){
+            $_SESSION['sdk'] = [];
+        }
+        if(!in_array($sdk,$_SESSION['sdk'])){
+            $_SESSION['sdk'][] = $sdk;
+            $_SESSION[$sdk]['type'] = $type = 0;
+            $_SESSION[$sdk]['time'] = $time = 0;
+        }else{
+            $type = $_SESSION[$sdk]['type'];
+            $time = $_SESSION[$sdk]['time'];
+        }
+        if($type != 1){
+            $time = 0;
+        }
+        if(strpos($_SERVER['HTTP_USER_AGENT'], 'iPhone')||strpos($_SERVER['HTTP_USER_AGENT'], 'iPad')){
+            echo 'systerm is IOS';
+        }else if(strpos($_SERVER['HTTP_USER_AGENT'], 'Android')){
+            echo 'systerm is Android';
+        }else{
+            echo 'systerm is other';
+        }
+        return $this->renderPartial('android',['type' => $type,'sdk' => $sdk,'time' => $time]);
     }
 
     public function actionPay(){

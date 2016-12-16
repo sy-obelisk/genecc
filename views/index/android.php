@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html xmlns:gs="http://www.gensee.com/ec">
 <head>
     <title>手机版视频直播界面</title>
     <!-- Basic Page Needs
@@ -30,6 +30,19 @@
     <script type="text/javascript" src="/js/jquery-1.9.1.min.js"></script>
     <script type="text/javascript" src="/js/jquery.nstSlider.js"></script>
     <script type="text/javascript" src="/js/new-live.js"></script>
+    <script type="text/javascript" src="http://static.gensee.com/webcast/static/sdk/js/gssdk.js"></script>
+    <script type="text/javascript" src="/js/json2.js"></script>
+    <script type="text/javascript" src="/js/webplayer.common.js"></script>
+    <script type="text/javascript" src="/js/webplayer.vod.js"></script>
+    <script type="text/javascript" src="/js/jquery-ui-1.10.3.custom.min.js"></script>
+
+    <!--[if IE 6]>
+    <script type="text/javascript" src="/js/DD_belatedPNG.js"></script>
+    <script type="text/javascript">
+        DD_belatedPNG.fix('.tran');
+        DD_belatedPNG.fix('.comm-title');
+    </script>
+    <![endif]-->
 </head>
 <body>
 <!--标题栏-->
@@ -39,7 +52,21 @@
 </div>
 <div class="play_main">
     <!--放ppt的容器-->
-     <div class="play_con"></div>
+     <div class="play_con">
+         <gs:video-vod
+             site="bjsy.gensee.com"
+             ctx="training"
+             ownerid="<?php echo $sdk?>"
+             uid="14889"
+             uname="2"
+             password=""
+             authcode=""
+             encodetype=""
+             bgimg="http://www.gmatonline.cn/app/web_core/styles//images/bg-video.png"
+             bar="false"
+             py="1"
+             lang="zh_CN"/>
+     </div>
     <!--进度条-->
     <div class="my_pro">
         <div class="nstSlider top" data-range_min="0" data-range_max="100"
@@ -71,7 +98,15 @@
     </div>
 </div>
 <!--老师视频部分-->
-<div class="teacher_box"></div>
+<div class="teacher_box">
+    <gs:doc
+        site="bjsy.gensee.com"
+        ctx="training"
+        ownerid="<?php echo $sdk?>"
+        fullscreen="true"
+        bgcolor=""
+        lang="zh_CN"/>
+</div>
 <script type="text/javascript">
     $(function(){
         $('.nstSlider').nstSlider({
