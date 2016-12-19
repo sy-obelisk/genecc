@@ -171,21 +171,21 @@ input[type='button']{
     top: 0;
     left: 0;
     z-index: 12000;
-    display: none;
+    /*display: none;*/
 }
 .form-font{
-    width:90%;
+    width:80%;
     background: url("../images/video_tanc.png") no-repeat;
     background-size: 100% 100%;
     border-radius: 10px;
     position: absolute;
     padding-bottom: 30px;
-    top:0;
+    top:38%;
     left: 50%;
     /*margin-top: -297px;*/
-    margin-left: -45%;
+    margin-left: -40%;
     z-index: 12000;
-    display: none;
+    /*display: none;*/
 }
 .input_money{
     width: 180px;
@@ -193,7 +193,7 @@ input[type='button']{
     margin: 0 auto;
     background: url("../images/video_inputbg.png") no-repeat;
     background-size: 100% 100%;
-    margin-top:85%;
+    margin-top:75%;
     position: relative;
 }
 .input_money input{
