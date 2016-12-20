@@ -25,7 +25,7 @@ $(function () {
         var width=event.data.playheadTime/videoduration*100;
         var nowTime = event.data.playheadTime;
         if(type==1 && time_test>0 && width){
-            console.log(time_test);
+            //console.log(time_test);
             channel.send("seek", {"timestamp":time_test});//跳转到指定时间点
             time_test=0;
         }else{
@@ -33,6 +33,7 @@ $(function () {
                 $.post("/index/judge",{sdk:sdk,nowTime:nowTime},function(data){
                     if(data.code!=1){
                         stype=1;
+                        //显示打赏弹窗
                         $(".form-maskLayer").show();
                         $(".form-font").show();
                         channel.send("pause", {});
@@ -125,7 +126,7 @@ $(function () {
         min:0,
         max:videoduration,
         start:function(event,ui){
-            console.log(1);
+            //console.log(1);
             channel.send("pause", {});
             clearInterval(myslider);
             $("#playBtn").attr({
@@ -134,17 +135,17 @@ $(function () {
             });
         },
         slide: function (event, ui) {
-            console.log(2);
+            //console.log(2);
             var style = $("#playerProgressBar a").attr("style").split(":")[1];
             var val = parseInt(style) + "%";
             $(".progress-bar-elapsed").width(val);
         },
         change: function (event, ui) {
-            console.log(3);
+            //console.log(3);
             $(".progress-bar-elapsed").width(ui.value+"%");
         },
         stop: function (event, ui) {
-            console.log(4);
+            //console.log(4);
             var tmt=parseInt(videoduration*ui.value/100);
             channel.send("seek", {"timestamp":tmt});//跳转到指定时间点
             //console.log(tmt+'|'+videoduration+'|'+ui.value);

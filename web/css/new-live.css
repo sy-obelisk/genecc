@@ -67,11 +67,12 @@ input[type='button']{
 }
 .play_main{
     width: 100%;
-    height: 50%;
+    height: 49%;
     background: #fff4e4;
     position: absolute;
     top: 8%;
     left: 0;
+    z-index: 110;
 }
 .play_con{
     width: 100%;
@@ -152,6 +153,14 @@ input[type='button']{
     right: 0;
     top: 45%;
 }
+.center_line{
+    width: 100%;
+    height: 1%;
+    background: #dcdcdc;
+    position: absolute;
+    left: 0;
+    top: 56.5%;
+}
 /*遮罩层css*/
 .form-maskLayer{
     width: 100%;
@@ -161,21 +170,21 @@ input[type='button']{
     position: absolute;
     top: 0;
     left: 0;
-    z-index: 999;
+    z-index: 12000;
     display: none;
 }
 .form-font{
-    width:90%;
+    width:80%;
     background: url("../images/video_tanc.png") no-repeat;
     background-size: 100% 100%;
     border-radius: 10px;
     position: absolute;
     padding-bottom: 30px;
-    top:0;
+    top:38%;
     left: 50%;
     /*margin-top: -297px;*/
-    margin-left: -45%;
-    z-index: 1000;
+    margin-left: -40%;
+    z-index: 12000;
     display: none;
 }
 .input_money{
@@ -184,7 +193,7 @@ input[type='button']{
     margin: 0 auto;
     background: url("../images/video_inputbg.png") no-repeat;
     background-size: 100% 100%;
-    margin-top:85%;
+    margin-top:75%;
     position: relative;
 }
 .input_money input{
