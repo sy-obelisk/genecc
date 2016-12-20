@@ -220,7 +220,7 @@ input[type='button']{
     border-radius: 10px;
     position: absolute;
     padding-bottom: 30px;
-    top:38%;
+    top:0;
     left: 50%;
     /*margin-top: -297px;*/
     margin-left: -40%;
@@ -237,13 +237,13 @@ input[type='button']{
     position: relative;
 }
 .input_money input{
-    width: 120px;
-    height: 30px;
+    width: 100px;
+    height: 25px;
     position: absolute;
     left: 35px;
     bottom: 5px;
     border: none;
-    font-size: 30px;
+    font-size: 20px;
     color: #e48503!important;
 }
 .form-font button{
