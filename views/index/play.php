@@ -31,7 +31,7 @@
     <!--标题栏-->
     <div class="blackNav_p">
         <a href="/index" class="returnP"><img src="/images/videoL_lj.png" alt="白色返回箭头"/></a>
-        <span>name</span>
+        <span><?php echo $name?></span>
     </div>
     <div class="main">
         <!--PPT Area-->
@@ -168,11 +168,16 @@
     <script type="text/javascript">
         function verify(){
             var money = $("#money").val();
-            if(money <1){
-                alert("打赏金额不低于1元人民币");
+            if(!/^-?\d+\.?\d*$/.test(money)){
+                alert("请输入数字!");
                 return false;
             }else{
-                return true;
+                if(money <1){
+                    alert("打赏金额不低于1元人民币");
+                    return false;
+                }else{
+                    return true;
+                }
             }
         }
         $(".blackNav_p").css("lineHeight",$(".blackNav_p").height()+"px");

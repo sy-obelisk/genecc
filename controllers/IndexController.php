@@ -33,17 +33,17 @@ class IndexController extends Controller
             $time = 0;
         }
         if(strpos($_SERVER['HTTP_USER_AGENT'], 'iPhone')||strpos($_SERVER['HTTP_USER_AGENT'], 'iPad')){
-            return $this->renderPartial('play',['type' => $type,'sdk' => $sdk,'time' => $time]);
+            return $this->renderPartial('play',['type' => $type,'sdk' => $sdk,'time' => $time,'name' => $name]);
         }else if(strpos($_SERVER['HTTP_USER_AGENT'], 'Android')){
             return $this->renderPartial('android',['type' => $type,'sdk' => $sdk,'time' => $time,'name' => $name]);
         }else{
-            return $this->renderPartial('play',['type' => $type,'sdk' => $sdk,'time' => $time]);
+            return $this->renderPartial('play',['type' => $type,'sdk' => $sdk,'time' => $time,'name' => $name]);
         }
     }
 
     public function actionPay(){
         $sdk = Yii::$app->request->post('sdk');
-        $money = 0.01;
+        $money = Yii::$app->request->post('money');
         $model = new AlipayPay();
         $order_id = 'ds'.time();
         $_SESSION['nowSdk'] = $sdk;
