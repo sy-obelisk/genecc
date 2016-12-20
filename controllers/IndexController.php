@@ -37,7 +37,7 @@ class IndexController extends Controller
         }else if(strpos($_SERVER['HTTP_USER_AGENT'], 'Android')){
             return $this->renderPartial('android',['type' => $type,'sdk' => $sdk,'time' => $time,'name' => $name]);
         }else{
-            return $this->renderPartial('ios',['type' => $type,'sdk' => $sdk,'time' => $time,'name' => $name]);
+            return $this->renderPartial('play',['type' => $type,'sdk' => $sdk,'time' => $time,'name' => $name]);
         }
     }
 
@@ -49,7 +49,7 @@ class IndexController extends Controller
         $_SESSION['nowSdk'] = $sdk;
         $gift_name = '视频打赏';
         $body = '视频打赏';
-        $show_url = 'http://vedio.viplgw.cn';
+        $show_url = 'http://video.viplgw.cn';
         $html = $model->requestPay($order_id, $gift_name, $money, $body, $show_url,'wap');
         echo $html;
     }
