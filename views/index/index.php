@@ -56,130 +56,122 @@
 <!--        <div class="con">-->
             <ul>
                 <li>
-                    <div id="wrapper">
-                        <div class="scroller">
-                            <ul>
-                                <li>
-                                    <div class="v_top_poster">
-                                        <a href="/index/play?sdk=2lTY3viK5X&name=RC如何从0开始复习"><img src="/images/gmat_poster01.jpg" alt="poster"/></a>
-                                        <div class="r_b_time">00:45:47</div>
-                                    </div>
-                                    <div class="v_bot_see">
-                                        <div class="col-xs-10 col-sm-10">
-                                            <img src="/images/videoL_logo.png" alt="图标"/>
-                                            <span>RC如何从0开始复习</span>
-                                        </div>
-                                        <div class="col-xs-2 col-sm-2">
-                                            <img src="/images/videoL_eyes.png" alt="eyes"/>
-                                            <span>16</span>
-                                        </div>
-                                        <div class="clearBox"></div>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="v_top_poster">
-                                        <a href="/index/play?sdk=JlcBH0TXPD&name=如何迈过700大坎"><img src="/images/gmat_poster02.jpg" alt="poster"/></a>
-                                        <div class="r_b_time">00:44:49</div>
-                                    </div>
-                                    <div class="v_bot_see">
-                                        <div class="col-xs-10 col-sm-10">
-                                            <img src="/images/videoL_logo.png" alt="图标"/>
-                                            <span>如何迈过700大坎</span>
-                                        </div>
-                                        <div class="col-xs-2 col-sm-2">
-                                            <img src="/images/videoL_eyes.png" alt="eyes"/>
-                                            <span>110</span>
-                                        </div>
-                                        <div class="clearBox"></div>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="v_top_poster">
-                                        <a href="/index/play?sdk=0D9WVEnAB3&name=如何突破GMAT阅读高分"><img src="/images/gmat_poster03.jpg" alt="poster"/></a>
-                                        <div class="r_b_time">00:32:56</div>
-                                    </div>
-                                    <div class="v_bot_see">
-                                        <div class="col-xs-10 col-sm-10">
-                                            <img src="/images/videoL_logo.png" alt="图标"/>
-                                            <span>如何突破GMAT阅读高分</span>
-                                        </div>
-                                        <div class="col-xs-2 col-sm-2">
-                                            <img src="/images/videoL_eyes.png" alt="eyes"/>
-                                            <span>70</span>
-                                        </div>
-                                        <div class="clearBox"></div>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="v_top_poster">
-                                        <a href="/index/play?sdk=j1UZGrujrb&name=零基础学生如何开始GMAT700+之路"><img src="/images/gmat_poster04.jpg" alt="poster"/></a>
-                                        <div class="r_b_time">00:37:41</div>
-                                    </div>
-                                    <div class="v_bot_see">
-                                        <div class="col-xs-10 col-sm-10">
-                                            <img src="/images/videoL_logo.png" alt="图标"/>
-                                            <span>零基础学生如何开始GMAT700+之路</span>
-                                        </div>
-                                        <div class="col-xs-2 col-sm-2">
-                                            <img src="/images/videoL_eyes.png" alt="eyes"/>
-                                            <span>54</span>
-                                        </div>
-                                        <div class="clearBox"></div>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="v_top_poster">
-                                        <a href="/index/play?sdk=sfSRA2A2na&name=备考GMAT数学有哪些关键点"><img src="/images/gmat_poster06.jpg" alt="poster"/></a>
-                                        <div class="r_b_time">00:37:27</div>
-                                    </div>
-                                    <div class="v_bot_see">
-                                        <div class="col-xs-10 col-sm-10">
-                                            <img src="/images/videoL_logo.png" alt="图标"/>
-                                            <span>备考GMAT数学有哪些关键点</span>
-                                        </div>
-                                        <div class="col-xs-2 col-sm-2">
-                                            <img src="/images/videoL_eyes.png" alt="eyes"/>
-                                            <span>87</span>
-                                        </div>
-                                        <div class="clearBox"></div>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="v_top_poster">
-                                        <a href="/index/play?sdk=WmkwSD6sPp&name=你知道SC备考难点有哪些吗"><img src="/images/gmat_poster07.jpg" alt="poster"/></a>
-                                        <div class="r_b_time">00:36:48</div>
-                                    </div>
-                                    <div class="v_bot_see">
-                                        <div class="col-xs-10 col-sm-10">
-                                            <img src="/images/videoL_logo.png" alt="图标"/>
-                                            <span>你知道SC备考难点有哪些吗</span>
-                                        </div>
-                                        <div class="col-xs-2 col-sm-2">
-                                            <img src="/images/videoL_eyes.png" alt="eyes"/>
-                                            <span>65</span>
-                                        </div>
-                                        <div class="clearBox"></div>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="v_top_poster">
-                                        <a href="/index/play?sdk=ouiUN1uJz6&name=如何打破GMAT600分的尴尬局面"><img src="/images/gmat_poster05.jpg" alt="poster"/></a>
-                                        <div class="r_b_time">00:36:27</div>
-                                    </div>
-                                    <div class="v_bot_see">
-                                        <div class="col-xs-10 col-sm-10">
-                                            <img src="/images/videoL_logo.png" alt="图标"/>
-                                            <span>如何打破GMAT600分的尴尬局面</span>
-                                        </div>
-                                        <div class="col-xs-2 col-sm-2">
-                                            <img src="/images/videoL_eyes.png" alt="eyes"/>
-                                            <span>106</span>
-                                        </div>
-                                        <div class="clearBox"></div>
-                                    </div>
-                                </li>
-                            </ul>
+                    <div class="v_top_poster">
+                        <a href="/index/play?sdk=j1UZGrujrb&name=零基础学生如何开始GMAT700+之路"><img src="/images/gmat_poster04.jpg" alt="poster"/></a>
+                        <div class="r_b_time">00:37:41</div>
+                    </div>
+                    <div class="v_bot_see">
+                        <div class="col-xs-10 col-sm-10">
+                            <img src="/images/videoL_logo.png" alt="图标"/>
+                            <span>零基础学生如何开始GMAT700+之路</span>
                         </div>
+                        <div class="col-xs-2 col-sm-2">
+                            <img src="/images/videoL_eyes.png" alt="eyes"/>
+                            <span>54</span>
+                        </div>
+                        <div class="clearBox"></div>
+                    </div>
+                </li>
+                <li>
+                    <div class="v_top_poster">
+                        <a href="/index/play?sdk=ouiUN1uJz6&name=如何打破GMAT600分的尴尬局面"><img src="/images/gmat_poster05.jpg" alt="poster"/></a>
+                        <div class="r_b_time">00:36:27</div>
+                    </div>
+                    <div class="v_bot_see">
+                        <div class="col-xs-10 col-sm-10">
+                            <img src="/images/videoL_logo.png" alt="图标"/>
+                            <span>如何打破GMAT600分的尴尬局面</span>
+                        </div>
+                        <div class="col-xs-2 col-sm-2">
+                            <img src="/images/videoL_eyes.png" alt="eyes"/>
+                            <span>106</span>
+                        </div>
+                        <div class="clearBox"></div>
+                    </div>
+                </li>
+                <li>
+                    <div class="v_top_poster">
+                        <a href="/index/play?sdk=JlcBH0TXPD&name=如何迈过700大坎"><img src="/images/gmat_poster02.jpg" alt="poster"/></a>
+                        <div class="r_b_time">00:44:49</div>
+                    </div>
+                    <div class="v_bot_see">
+                        <div class="col-xs-10 col-sm-10">
+                            <img src="/images/videoL_logo.png" alt="图标"/>
+                            <span>如何迈过700大坎</span>
+                        </div>
+                        <div class="col-xs-2 col-sm-2">
+                            <img src="/images/videoL_eyes.png" alt="eyes"/>
+                            <span>110</span>
+                        </div>
+                        <div class="clearBox"></div>
+                    </div>
+                </li>
+                <li>
+                    <div class="v_top_poster">
+                        <a href="/index/play?sdk=2lTY3viK5X&name=RC如何从0开始复习"><img src="/images/gmat_poster01.jpg" alt="poster"/></a>
+                        <div class="r_b_time">00:45:47</div>
+                    </div>
+                    <div class="v_bot_see">
+                        <div class="col-xs-10 col-sm-10">
+                            <img src="/images/videoL_logo.png" alt="图标"/>
+                            <span>RC如何从0开始复习</span>
+                        </div>
+                        <div class="col-xs-2 col-sm-2">
+                            <img src="/images/videoL_eyes.png" alt="eyes"/>
+                            <span>16</span>
+                        </div>
+                        <div class="clearBox"></div>
+                    </div>
+                </li>
+                <li>
+                    <div class="v_top_poster">
+                        <a href="/index/play?sdk=0D9WVEnAB3&name=如何突破GMAT阅读高分"><img src="/images/gmat_poster03.jpg" alt="poster"/></a>
+                        <div class="r_b_time">00:32:56</div>
+                    </div>
+                    <div class="v_bot_see">
+                        <div class="col-xs-10 col-sm-10">
+                            <img src="/images/videoL_logo.png" alt="图标"/>
+                            <span>如何突破GMAT阅读高分</span>
+                        </div>
+                        <div class="col-xs-2 col-sm-2">
+                            <img src="/images/videoL_eyes.png" alt="eyes"/>
+                            <span>70</span>
+                        </div>
+                        <div class="clearBox"></div>
+                    </div>
+                </li>
+                <li>
+                    <div class="v_top_poster">
+                        <a href="/index/play?sdk=sfSRA2A2na&name=备考GMAT数学有哪些关键点"><img src="/images/gmat_poster06.jpg" alt="poster"/></a>
+                        <div class="r_b_time">00:37:27</div>
+                    </div>
+                    <div class="v_bot_see">
+                        <div class="col-xs-10 col-sm-10">
+                            <img src="/images/videoL_logo.png" alt="图标"/>
+                            <span>备考GMAT数学有哪些关键点</span>
+                        </div>
+                        <div class="col-xs-2 col-sm-2">
+                            <img src="/images/videoL_eyes.png" alt="eyes"/>
+                            <span>87</span>
+                        </div>
+                        <div class="clearBox"></div>
+                    </div>
+                </li>
+                <li>
+                    <div class="v_top_poster">
+                        <a href="/index/play?sdk=WmkwSD6sPp&name=你知道SC备考难点有哪些吗"><img src="/images/gmat_poster07.jpg" alt="poster"/></a>
+                        <div class="r_b_time">00:36:48</div>
+                    </div>
+                    <div class="v_bot_see">
+                        <div class="col-xs-10 col-sm-10">
+                            <img src="/images/videoL_logo.png" alt="图标"/>
+                            <span>你知道SC备考难点有哪些吗</span>
+                        </div>
+                        <div class="col-xs-2 col-sm-2">
+                            <img src="/images/videoL_eyes.png" alt="eyes"/>
+                            <span>65</span>
+                        </div>
+                        <div class="clearBox"></div>
                     </div>
                 </li>
             </ul>
