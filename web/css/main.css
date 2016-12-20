@@ -2860,3 +2860,30 @@ object {
     cursor: pointer;
 }
 
+/*title*/
+.blackNav_p{
+    width: 100%;
+    height: 8%;
+    /*line-height: 10%;*/
+    background: #ff8c4c;
+    text-align: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.blackNav_p span{
+    width: 60%;
+    margin: 0 auto;
+    color: #ffffff;
+    font-size: 1.2em;
+    display:block;white-space:nowrap; overflow:hidden; text-overflow:ellipsis;
+}
+.returnP{
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 5%;
+}
+.returnP img{
+    height: 100%;
+}
