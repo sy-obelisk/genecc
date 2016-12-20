@@ -80,7 +80,7 @@
 </div>
 <!--底部黑色条部分-->
 <div class="black_control">
-    <div class="play" onclick="playIcon(this)"></div>
+    <div id="iosPlay" class="play"></div>
     <div class="volume">
 <!--        <div class="volume_icon">-->
 <!--            <img src="/images/video_volume.png" alt="音量图标">-->

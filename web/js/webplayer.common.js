@@ -92,6 +92,16 @@ $(function () {
 
     });
 
+    $("#iosPlay").click(function () {
+        if($(this).hasClass("on")){
+            $(this).removeClass("on");
+            channel.send("play", {})
+        }else{
+            $(this).addClass("on");
+            channel.send("pause", {});
+        }
+    });
+
     //模拟静音
     $("#soundBtn").click(function () {
         if ($(this).hasClass("horn-icon")) {
