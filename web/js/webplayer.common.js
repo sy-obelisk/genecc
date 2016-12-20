@@ -16,7 +16,7 @@ var stype=0;
 $(function () {
     channel.bind("onFileDuration", function (event) {
         videoduration = event.data.duration;
-        time_test = videoduration*0.2;
+        time_test = videoduration*0.3;
         type = $('#type').val();
         sdk = $('#sdk').val();
     });
@@ -29,7 +29,7 @@ $(function () {
             channel.send("seek", {"timestamp":time_test});//跳转到指定时间点
             time_test=0;
         }else{
-            if(width>0.3 && type != 1){
+            if(width>30 && type != 1){
                 $.post("/index/judge",{sdk:sdk,nowTime:nowTime},function(data){
                     if(data.code!=1){
                         stype=1;
