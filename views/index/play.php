@@ -28,6 +28,11 @@
 <body>
 
 <div class="web">
+    <!--标题栏-->
+    <div class="blackNav_p">
+        <a href="/index" class="returnP"><img src="/images/videoL_lj.png" alt="白色返回箭头"/></a>
+        <span>name</span>
+    </div>
     <div class="main">
         <!--PPT Area-->
         <div id="widget-doc" class="ppt-container">
@@ -170,6 +175,11 @@
                 return true;
             }
         }
+        $(".blackNav_p").css("lineHeight",$(".blackNav_p").height()+"px");
+        $(".returnP").css({
+            "height":$(".blackNav_p").height()/2+"px",
+            "top":"20%"
+        });
     </script>
 </div>
 </body>

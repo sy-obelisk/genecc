@@ -80,7 +80,8 @@
 				pptAnim : {
 					"left":0,
 					//"left" : this.winWidth/2 - (this.winHeight- this.config.top - this.config.bottom - this.config.ctrlGap - this.config.ctrlHeight + this.config.WH_subVal)/2,
-					"top" : this.config.top
+					//"top" : this.config.top
+                    "top":"8%"
 				},
 				pptIsMain : this.config.pptIsMain,
 				qaCss : {
@@ -103,7 +104,8 @@
 					/** video的left=（doc的left)+(doc的width)+ 模块间隙 **/
 					left:"80%",
 					//"left" : this.winWidth/2 - (this.winHeight- this.config.top - this.config.bottom - this.config.ctrlGap - this.config.ctrlHeight + this.config.WH_subVal)/2 + this.winHeight- this.config.top - this.config.bottom - this.config.ctrlGap - this.config.ctrlHeight + this.config.WH_subVal + this.config.gap,
-					"top" : this.config.top
+					//"top" : this.config.top
+                    "top":"8%"
 				},
 				outlineCss : {
 					"visibility" : "visible"
