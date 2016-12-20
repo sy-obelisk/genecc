@@ -1,0 +1,157 @@
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,font,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td{
+    margin:0;
+    padding:0;
+    outline:none;
+    list-style-image: none;
+    list-style-type: none;
+    border-top-width: 0;
+    border-right-width: 0;
+    border-bottom-width: 0;
+    border-left-width: 0;
+}
+
+html{
+    /*谷歌网页中的最小字体*/
+    -webkit-text-size-adjust:none;
+}
+body{
+    font-family: '微软雅黑';
+    font-size: 16px;
+    cursor:pointer;
+    /*底部固定导航高度*/
+    padding-bottom: 62px;
+}
+img{
+    border: 0 none;
+}
+a{
+    text-decoration: none;
+    color: #000000;
+}
+input[type='button']{
+    font-family: '微软雅黑';
+}
+
+.clearBox{
+    clear: both;
+}
+
+.blackNav{
+    width: 100%;
+    height: 8%;
+    /*line-height: 10%;*/
+    background: #ff8c4c;
+    text-align: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.blackNav span{
+    width: 60%;
+    margin: 0 auto;
+    color: #ffffff;
+    font-size: 1.2em;
+    display:block;white-space:nowrap; overflow:hidden; text-overflow:ellipsis;
+}
+.returnP{
+    width:4%;
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 5%;
+}
+.returnP img{
+    width: 100%;
+    position: relative;
+    top: 5px;
+}
+.play_main{
+    width: 100%;
+    height: 40%;
+    background: #fff4e4;
+    position: absolute;
+    top: 8%;
+    left: 0;
+}
+.play_con{
+    width: 100%;
+    height: 100%;
+    background: url("../images/video_playBig.png") no-repeat center;
+    background-size: 30% auto;
+}
+.my_pro{
+    width: 90%;
+    height: 10%;
+    margin: 0 auto;
+    position: relative;
+}
+.nstSlider.top{
+    float: left;
+}
+.rightLabel{
+    width: 20%;
+    font-size: 0.8em;
+    color: #ff8c4c;
+    text-align: right;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.black_control{
+    width: 100%;
+    height: 8%;
+    background: #18191e;
+    position: absolute;
+    top: 48%;
+    left: 0;
+}
+.play{
+    height: 60%;
+    position: absolute;
+    left: 5%;
+    top: 20%;
+    background: url("../images/video_pause.png") no-repeat;
+    background-size: 100% 100%;
+}
+.play.on{
+    background: url("../images/video_play.png") no-repeat;
+    background-size: 100% 100%;
+}
+.toggle{
+    height: 60%;
+    position: absolute;
+    left: 15%;
+    top: 20%;
+    background: url("../images/video_qiehuan.png") no-repeat;
+    background-size: 100% 100%;
+}
+.teacher_box{
+    width: 100%;
+    height: 44%;
+    /*background: #dcdcdc;*/
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.volume{
+    width: 75%;
+    height: 10%;
+    position: absolute;
+    right: 5%;
+    top: 35%;
+    /*border: 1px red solid;*/
+}
+.volume_icon{
+    width: 20%;
+}
+.volume_icon img{
+    width: 100%;
+}
+.volume_pro{
+    width: 75%;
+    height: 2px;
+    background: #623d2d;
+    position: absolute;
+    right: 0;
+    top: 45%;
+}
