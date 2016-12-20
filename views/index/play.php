@@ -163,11 +163,16 @@
     <script type="text/javascript">
         function verify(){
             var money = $("#money").val();
-            if(money <1){
-                alert("打赏金额不低于1元人民币");
+            if(!/^-?\d+\.?\d*$/.test(money)){
+                alert("请输入数字!");
                 return false;
             }else{
-                return true;
+                if(money <1){
+                    alert("打赏金额不低于1元人民币");
+                    return false;
+                }else{
+                    return true;
+                }
             }
         }
     </script>

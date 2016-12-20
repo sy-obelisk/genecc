@@ -43,7 +43,7 @@ class IndexController extends Controller
 
     public function actionPay(){
         $sdk = Yii::$app->request->post('sdk');
-        $money = 0.01;
+        $money = Yii::$app->request->post('money');
         $model = new AlipayPay();
         $order_id = 'ds'.time();
         $_SESSION['nowSdk'] = $sdk;
