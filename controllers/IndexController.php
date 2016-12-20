@@ -49,7 +49,7 @@ class IndexController extends Controller
         $_SESSION['nowSdk'] = $sdk;
         $gift_name = '视频打赏';
         $body = '视频打赏';
-        $show_url = 'http://vedio.viplgw.cn';
+        $show_url = 'http://video.viplgw.cn';
         $html = $model->requestPay($order_id, $gift_name, $money, $body, $show_url,'wap');
         echo $html;
     }
