@@ -31,7 +31,7 @@
     <!--标题栏-->
     <div class="blackNav_p">
         <a href="/index" class="returnP"><img src="/images/videoL_lj.png" alt="白色返回箭头"/></a>
-        <span>name</span>
+        <span><?php echo $name?></span>
     </div>
     <div class="main">
         <!--PPT Area-->
