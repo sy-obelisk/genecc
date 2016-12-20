@@ -93,6 +93,12 @@
 <!--            </div>-->
 <!---->
 <!--        </div>-->
+        <div class="player-progress-bar-wrap pro_bg01">
+            <div class="player-slider progress-bar-elapsed pro_bg02"></div>
+            <div class="player-slider progress-bar-buffer pro_load"></div>
+            <div id="playerProgressBar" class="player-progress-bar pro_bar">
+            </div>
+        </div>
     </div>
 </div>
 <div class="center_line"></div>

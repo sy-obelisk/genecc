@@ -11,15 +11,19 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
 }
 
 html{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
     /*谷歌网页中的最小字体*/
     -webkit-text-size-adjust:none;
 }
 body{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
     font-family: '微软雅黑';
     font-size: 16px;
     cursor:pointer;
-    /*底部固定导航高度*/
-    padding-bottom: 62px;
 }
 img{
     border: 0 none;
@@ -72,6 +76,7 @@ input[type='button']{
     position: absolute;
     top: 8%;
     left: 0;
+    border: 1px #000000 solid;
 }
 .play_con{
     width: 100%;
@@ -132,13 +137,14 @@ input[type='button']{
     position: absolute;
     bottom: 0;
     left: 0;
+    border: 1px white solid;
 }
 .volume{
     width: 75%;
-    height: 10%;
+    height: 15%;
     position: absolute;
     right: 5%;
-    top: 35%;
+    top: 45%;
     /*border: 1px red solid;*/
 }
 .volume_icon{
@@ -149,9 +155,49 @@ input[type='button']{
 }
 .volume_pro{
     width: 75%;
-    height: 2px;
+    height: 3px;
     background: #623d2d;
     position: absolute;
     right: 0;
-    top: 45%;
+    top: 50%;
+}
+
+.pro_bg01{
+    width:100%;
+    height:3px;
+    background: #ffb98f;
+    position: absolute;
+    top: 2px;
+    left: 0;
+}
+.pro_bg02{
+    height:3px;
+    background: #f69675;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 12;
+}
+.pro_load{
+    height:3px;
+    background: #f4d4c4;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.pro_bar{
+    width:100%;
+    height:3px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.pro_bar a{
+    width: 15px;
+    height: 15px;
+    display: block;
+    background: url("../images/video_proCircle.png") no-repeat;
+    background-size: 100% 100%;
+    position: absolute;
+    top: -6px;
 }
