@@ -76,7 +76,7 @@ input[type='button']{
     position: absolute;
     top: 8%;
     left: 0;
-    border: 1px #000000 solid;
+    /*border: 1px #000000 solid;*/
 }
 .play_con{
     width: 100%;
@@ -137,7 +137,7 @@ input[type='button']{
     position: absolute;
     bottom: 0;
     left: 0;
-    border: 1px white solid;
+    /*border: 1px white solid;*/
 }
 .volume{
     width: 75%;
