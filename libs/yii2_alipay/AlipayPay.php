@@ -50,13 +50,13 @@ class AlipayPay {
      * @var String 服务器异步通知页面路径
      * 需http://格式的完整路径，不能�?id=123这类自定义参�?
      */
-    public $notify_url = 'http://vedio.viplgw.cn/index';
+    public $notify_url = 'http://video.viplgw.cn/index';
 
     /**
      * @var String 页面跳转同步通知页面路径
      * 需http://格式的完整路径，不能�?id=123这类自定义参数，不能写成http://localhost/
      */
-    public $return_url = 'http://vedio.viplgw.cn/index/return-url';
+    public $return_url = 'http://video.viplgw.cn/index/return-url';
     public $extra_common_param = '';
 
     function __construct() {
