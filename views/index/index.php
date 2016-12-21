@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title></title>
+    <title>雷哥网公益课堂GMAT托福雅思留学</title>
     <!-- Basic Page Needs
      ================================================== -->
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
@@ -159,7 +159,7 @@
                 </li>
                 <li>
                     <div class="v_top_poster">
-                        <a href="/index/play?sdk=WmkwSD6sPp&name=你知道SC备考难点有哪些吗"><img src="/images/gmat_poster07.jpg" alt="poster"/></a>
+                        <a href="/index/play?sdk=9xwNs3Zq6D&name=你知道SC备考难点有哪些吗"><img src="/images/gmat_poster07.jpg" alt="poster"/></a>
                         <div class="r_b_time">00:36:48</div>
                     </div>
                     <div class="v_bot_see">
