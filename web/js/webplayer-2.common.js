@@ -158,6 +158,7 @@ $(function () {
             //console.log(4);
             var tmt=parseInt(videoduration*ui.value/100);
             channel.send("seek", {"timestamp":tmt});//跳转到指定时间点
+            channel.send("play", {})
             //console.log(tmt+'|'+videoduration+'|'+ui.value);
         }
     });
