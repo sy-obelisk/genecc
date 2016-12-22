@@ -176,7 +176,7 @@ input[type='button']{
     position: absolute;
     top: 0;
     left: 0;
-    z-index: 12;
+    z-index: 1;
 }
 .pro_load{
     height:3px;
@@ -184,6 +184,7 @@ input[type='button']{
     position: absolute;
     top: 0;
     left: 0;
+    z-index: 0;
 }
 .pro_bar{
     width:100%;
@@ -191,6 +192,7 @@ input[type='button']{
     position: absolute;
     top: 0;
     left: 0;
+    z-index: 2;
 }
 .pro_bar a{
     width: 15px;
