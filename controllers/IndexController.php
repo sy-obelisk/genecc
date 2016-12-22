@@ -41,6 +41,12 @@ class IndexController extends Controller
         }
     }
 
+    public function actionPlayAndroid(){
+        $sdk = Yii::$app->request->get('sdk');
+        $name = Yii::$app->request->get('name');
+        return $this->renderPartial('androidApp',['sdk' => $sdk,'name' => $name]);
+    }
+
     public function actionPay(){
         $sdk = Yii::$app->request->post('sdk');
         $money = Yii::$app->request->post('money');
