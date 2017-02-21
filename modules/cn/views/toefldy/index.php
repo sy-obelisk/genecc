@@ -182,7 +182,7 @@
                         ?>
                         <li>
                             <div class="summerTop">
-                                <img src="http://toefl.viplgw.cn/<?php echo $v['image']?>" alt="图片">
+                                <img src="http://www.toeflonline.cn/<?php echo $v['image']?>" alt="图片">
                                 <!--遮罩-->
                                 <div class="summer-mask">
                                     <p><?php echo $v['name']?></p>

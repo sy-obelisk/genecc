@@ -58,7 +58,7 @@ class WapApiController extends ToeflApiControl
             }
         }else {
             $parent = Content::getClass(['fields' => "sentenceNumber,duration,cnName,listeningFile,article,problemComplement,answer", 'where' => "c.id = $sign->pid"]);
-            $parent[0]['sentenceNumber'] = str_replace('src="/files','src="http://smartapply.viplgw.cn/files',$parent[0]['sentenceNumber']);
+            $parent[0]['sentenceNumber'] = str_replace('src="/files','src="http://smartapply.gmatonline.cn /files',$parent[0]['sentenceNumber']);
             $data = Content::getClass(['fields' => "price", 'where' => "c.id = $id"]);
             $count = $data[0]['viewCount'];
             Content::updateAll(['viewCount' => ($count + 1)], "id=$sign->pid");
@@ -71,7 +71,7 @@ class WapApiController extends ToeflApiControl
     public function actionBack(){
         $id = Yii::$app->request->get('id');
         $data = Content::getClass(['fields' => "article,listeningFile,answer,duration",'where' => "c.id = $id"]);
-        $data[0]['duration'] = str_replace('src="/files','src="http://smartapply.viplgw.cn/files',$data[0]['duration']);
+        $data[0]['duration'] = str_replace('src="/files','src="http://smartapply.gmatonline.cn /files',$data[0]['duration']);
         $count = $data[0]['viewCount'];
         Content::updateAll(['viewCount' => ($count+1)],"id=$id");
         $callback = $_GET['callback'];

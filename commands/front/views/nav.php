@@ -341,14 +341,14 @@
     function userLogin(){
 //        $('.maskLayer').show();
 //        $('.login').show();
-        location.href="http://login.viplgw.cn/cn/index?source=2&url=<?php echo Yii::$app->request->hostInfo.Yii::$app->request->getUrl()?>"
+        location.href="http://login.gmatonline.cn/cn/index?source=2&url=<?php echo Yii::$app->request->hostInfo.Yii::$app->request->getUrl()?>"
 
     }
     /**
      * 注册框
      */
     function userRegister(){
-        location.href="http://login.viplgw.cn/cn/index/register?source=2&url=<?php echo Yii::$app->request->hostInfo.Yii::$app->request->getUrl()?>"
+        location.href="http://login.gmatonline.cn/cn/index/register?source=2&url=<?php echo Yii::$app->request->hostInfo.Yii::$app->request->getUrl()?>"
     }
 
     /**

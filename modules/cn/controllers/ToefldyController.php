@@ -18,7 +18,7 @@ class ToefldyController extends ToeflController {
      * @Yanni
      */
     public function actionIndex(){
-        $teacher = file_get_contents("http://toefl.viplgw.cn/cn/api/get-teacher");
+        $teacher = file_get_contents("http://www.toeflonline.cn/cn/api/get-teacher");
         $teacher = json_decode($teacher,true);
         return $this->render('index',['teacher'=>$teacher]);
     }

@@ -134,7 +134,7 @@ class QuestionController extends ToeflController {
             }
             return $this->redirect(['index']);
         }else{
-            echo "<script>alert('你还没登陆哦~~~~~');window.location.href='http://login.viplgw.cn/cn/index?source=1&url=http://+".$_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI']."';</script>";
+            echo "<script>alert('你还没登陆哦~~~~~');window.location.href='http://login.gmatonline.cn/cn/index?source=1&url=http://+".$_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI']."';</script>";
         }
     }
     /**
@@ -164,7 +164,7 @@ class QuestionController extends ToeflController {
             return $this->redirect(array('detail','id'=>$questionid));
         }
         else{
-            echo "<script>alert('你还没登陆哦~~~~~');window.location.href='http://login.viplgw.cn/cn/index?source=1&url=http://+".$_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI']."';</script>";
+            echo "<script>alert('你还没登陆哦~~~~~');window.location.href='http://login.gmatonline.cn/cn/index?source=1&url=http://+".$_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI']."';</script>";
         }
     }
 

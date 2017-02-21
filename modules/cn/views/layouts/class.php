@@ -33,7 +33,7 @@
         <img src="/cn/images/openD_titleIcon.png" alt="图标" height="33"/>
         <b>SmartApply公开课</b>&nbsp;&nbsp;&nbsp;&nbsp;
         <a href="http://www.gmatonline.cn/" target="_blank">返回雷哥GMAT在线 |</a>
-        <a href="http://toefl.viplgw.cn/" target="_blank">返回托福在线 |</a>
+        <a href="http://www.toeflonline.cn/" target="_blank">返回托福在线 |</a>
         <a href="/">返回商城</a>
         <p>400-1816-180</p>
     </div>
