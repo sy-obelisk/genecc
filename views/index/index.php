@@ -44,9 +44,10 @@
 <div class="slideCon" id="videoSlide">
     <div class="slideHd">
         <ul>
-            <li><div class="col-xs-4 col-sm-4"><a href="javascript:void(0);">GMAT <i class="fa fa-caret-down"></i></a></div></li>
-            <li><div class="col-xs-4 col-sm-4"><a href="javascript:void(0);">托福 <i class="fa fa-caret-down"></i></a></div></li>
-            <li><div class="col-xs-4 col-sm-4"><a href="javascript:void(0);">留学 <i class="fa fa-caret-down"></i></a></div></li>
+            <li><div class="col-xs-3 col-sm-3"><a href="javascript:void(0);">GMAT <i class="fa fa-caret-down"></i></a></div></li>
+            <li><div class="col-xs-3 col-sm-3"><a href="javascript:void(0);">托福 <i class="fa fa-caret-down"></i></a></div></li>
+            <li><div class="col-xs-3 col-sm-3"><a href="javascript:void(0);">雅思 <i class="fa fa-caret-down"></i></a></div></li>
+            <li><div class="col-xs-3 col-sm-3"><a href="javascript:void(0);">留学 <i class="fa fa-caret-down"></i></a></div></li>
         </ul>
     </div>
     <div class="clearBox"></div>
@@ -276,6 +277,63 @@
                 </li>
             </ul>
 <!--        </div>-->
+        <!----------------------------雅思------------------------------->
+        <!--        <div class="con">-->
+        <ul>
+            <li>
+                <div id="wrapper_3">
+                    <div class="scroller">
+                        <ul>
+                            <li>
+                                <div class="v_top_poster">
+                                    <a href="/index/play?sdk=WHHkGveI46&name=如何破解雅思阅读TURE/YES题型"><img src="/images/ielts-01.png" alt="poster"/></a>
+                                    <div class="r_b_time">00:50:22</div>
+                                </div>
+                                <div class="v_bot_see">
+                                    <div class="col-xs-10 col-sm-10">
+                                        <img src="/images/videoL_logo.png" alt="图标"/>
+                                        <span>如何破解雅思阅读TURE/YES题型</span>
+                                    </div>
+                                    <div class="col-xs-2 col-sm-2">
+                                        <img src="/images/videoL_eyes.png" alt="eyes"/>
+                                        <span>20</span>
+                                    </div>
+                                    <div class="clearBox"></div>
+                                </div>
+                            </li>
+
+                        </ul>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div id="wrapper_3">
+                    <div class="scroller">
+                        <ul>
+                            <li>
+                                <div class="v_top_poster">
+                                    <a href="/index/play?sdk=AL3AkaDuoV&name=如何根据官方评分标准写好雅思大作文"><img src="/images/ielts-02.png" alt="poster"/></a>
+                                    <div class="r_b_time">00:33:43</div>
+                                </div>
+                                <div class="v_bot_see">
+                                    <div class="col-xs-10 col-sm-10">
+                                        <img src="/images/videoL_logo.png" alt="图标"/>
+                                        <span>如何根据官方评分标准写好雅思大作文</span>
+                                    </div>
+                                    <div class="col-xs-2 col-sm-2">
+                                        <img src="/images/videoL_eyes.png" alt="eyes"/>
+                                        <span>10</span>
+                                    </div>
+                                    <div class="clearBox"></div>
+                                </div>
+                            </li>
+
+                        </ul>
+                    </div>
+                </div>
+            </li>
+        </ul>
+        <!--        </div>-->
         <!----------------------------留学------------------------------->
 <!--        <div class="con">-->
             <ul>
