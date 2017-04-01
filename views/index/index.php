@@ -221,17 +221,34 @@
                                 </li>
                                 <li>
                                     <div class="v_top_poster">
-                                        <a href="/index/play?sdk=FooEWykjJ9&name=提升托福写作速度的正确方法"><img src="/images/toefl_poster03.jpg" alt="poster"/></a>
-                                        <div class="r_b_time">00:33:42</div>
+                                        <a href="/index/play?sdk=dkS5ZxZTXd&name=雷哥深刻解读托福综合写作"><img src="/images/toefl_poster03.png" alt="poster"/></a>
+                                        <div class="r_b_time">00:31:09</div>
                                     </div>
                                     <div class="v_bot_see">
                                         <div class="col-xs-10 col-sm-10">
                                             <img src="/images/videoL_logo.png" alt="图标"/>
-                                            <span>提升托福写作速度的正确方法</span>
+                                            <span>雷哥深刻解读托福综合写作</span>
                                         </div>
                                         <div class="col-xs-2 col-sm-2">
                                             <img src="/images/videoL_eyes.png" alt="eyes"/>
-                                            <span>111</span>
+                                            <span>463</span>
+                                        </div>
+                                        <div class="clearBox"></div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="v_top_poster">
+                                        <a href="/index/play?sdk=ABFT0C2BeW&name=实例讲解独立写作如何brainstorm"><img src="/images/toefl_poster003.png" alt="poster"/></a>
+                                        <div class="r_b_time">00:32:19</div>
+                                    </div>
+                                    <div class="v_bot_see">
+                                        <div class="col-xs-10 col-sm-10">
+                                            <img src="/images/videoL_logo.png" alt="图标"/>
+                                            <span>实例讲解独立写作如何brainstorm</span>
+                                        </div>
+                                        <div class="col-xs-2 col-sm-2">
+                                            <img src="/images/videoL_eyes.png" alt="eyes"/>
+                                            <span>152</span>
                                         </div>
                                         <div class="clearBox"></div>
                                     </div>
