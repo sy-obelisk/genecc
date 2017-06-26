@@ -67,8 +67,8 @@ if($loginOut){
                 </li>
                 <li><a href="http://www.gmatonline.cn/">GMAT</a></li>
                 <li><a href="/" class="on">TOEFL</a></li>
-                <li><a href="http://ielts.gmatonline.cn/">IELTS</a></li>
-                <li><a href="http://smartapply.gmatonline.cn /" target="_blank">留学</a></li>
+                <li><a href="http://ielts.viplgw.cn/">IELTS</a></li>
+                <li><a href="http://www.smartapply.cn" target="_blank">留学</a></li>
                 <li>|</li>
                 <li><span>400-1816-180</span></li>
                 <li><a href="tencent://message/?uin=1746295647&amp;Site=www.cnclcy&amp;Menu=yes">在线咨询</a></li>

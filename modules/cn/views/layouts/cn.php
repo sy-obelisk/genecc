@@ -91,8 +91,8 @@ if($loginOut){
                     </li>
                     <li><a href="http://www.gmatonline.cn">GMAT</a></li>
                     <li><a href="http://www.toeflonline.cn/">TOEFL</a></li>
-                    <li><a href="http://ielts.gmatonline.cn/">IELTS</a></li>
-                    <li><a class="on" href="http://smartapply.gmatonline.cn /">留学</a></li>
+                    <li><a href="http://ielts.viplgw.cn/">IELTS</a></li>
+                    <li><a class="on" href="http://www.smartapply.cn">留学</a></li>
                     <li>|</li>
                     <li><span>400-1816-180</span></li>
                     <li><a href="tencent://message/?uin=1746295647&amp;Site=www.cnclcy&amp;Menu=yes">在线咨询</a></li>
@@ -232,15 +232,15 @@ if($loginOut){
                 <li><a href="javascript:void(0);">课程类型</a></li>
                 <li><a href="http://www.gmatonline.cn/index.html">GMAT</a></li>
                 <li><a href="http://www.toeflonline.cn/">TOEFL</a></li>
-                <li><a href="http://ielts.gmatonline.cn/">IELTS</a></li>
-                <li><a href="http://smartapply.gmatonline.cn /">留学</a></li>
+                <li><a href="http://ielts.viplgw.cn/">IELTS</a></li>
+                <li><a href="http://www.smartapply.cn">留学</a></li>
             </ul>
             <ul class="footer-list">
                 <li><a href="javascript:void(0);">题库</a></li>
                 <li><a href="http://www.gmatonline.cn/question/stog8leetkey.html">PREP</a></li>
                 <li><a href="http://www.gmatonline.cn/question/stog1leetkey.html">OG</a></li>
                 <li><a href="http://www.toeflonline.cn/tpoExam.html">TPO</a></li>
-                <li><a href="http://ielts.gmatonline.cn/">剑桥</a></li>
+                <li><a href="http://ielts.viplgw.cn/">剑桥</a></li>
             </ul>
             <ul class="footer-list erm-3-wrap">
                 <li><a href="javascript:void(0);">关注我们</a></li>
